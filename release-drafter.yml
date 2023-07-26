@@ -1,0 +1,25 @@
+name-template: 'MMLib.PostmanCollectionDiffTool v$NEXT_PATCH_VERSION ✈️'
+tag-template: 'postmancollectiondifftool_v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'feature'
+      - 'enhancement'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: '🧰 Maintenance'
+    labels: 
+      - 'refactor 🛠️'
+      - 'unittests'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+template: |
+  ## Changes
+
+  $CHANGES
+
+  ---
+  Did this project help you? [You can now buy me a beer 😎🍺.](https://www.buymeacoffee.com/0dQ7tNG)
+  <a href="https://www.buymeacoffee.com/0dq7tng" target="_blank"><img src="https://devlabminostorage.blob.core.windows.net/pictures/14886378480230481353648465.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 160px !important;" height="160"></a>
