@@ -1,9 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Description>Tool to generate html report for Postman collection diff.</Description>
+    <PackageTags>tool;diff;postman;report;html</PackageTags>
   </PropertyGroup>
-
 </Project>

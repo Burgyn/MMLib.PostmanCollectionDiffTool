@@ -1,0 +1,29 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Version>1.0.0-alpha1</Version>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <Authors>Milan Martiniak</Authors>
+        <Company>MMLib</Company>
+        <Description>Tool for generating differences from two postman json collections.</Description>
+        <PackageProjectUrl>https://github.com/Burgyn/MMLib.PostmanCollectionDiffTool</PackageProjectUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/Burgyn/MMLib.SwaggerForOcelot</RepositoryUrl>
+        <PackageTags>tool;diff;postman</PackageTags>
+        <PackageReleaseNotes />
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>@MMLib</Copyright>
+        <LangVersion>preview</LangVersion>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="../../README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
