@@ -1,2 +1,3 @@
 ﻿# MMLib.PostmanCollectionDiffTool
 
+test
