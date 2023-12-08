@@ -1,0 +1,125 @@
+﻿@model MMLib.PostmanCollectionDiff.Comparer.CollectionDiffResult
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>MMLib.PostmanDiff Report!</title>
+    <style>
+        .code-text {
+            font-family: 'Fira Code', monospace;
+        }
+
+        .margin-bottom-10 {
+            margin-bottom: 10px;
+        }
+
+        .margin-bottom-20 {
+            margin-bottom: 20px;
+        }
+
+        .deleted {
+            color: #e74c3c;
+        }
+
+        .added {
+            color: #2ecc71;
+        }
+
+        .changed {
+            color: #3498db;
+        }
+
+        .unchanged {
+            color: #212529;
+        }
+
+        code {
+            font-family: 'Fira Code', monospace !important;
+        }
+
+        mark-added {
+            background-color: #2ecc71;
+        }
+
+        mark-deleted {
+            background-color: #e74c3c;
+            color: #fff !important;
+        }
+
+        mark-changed {
+            background-color: #3498db;
+            color: #fff !important;
+        }
+
+        .hljs {
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-section, .hljs-link {
+            color: #333;
+        }
+
+        pre {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                <img src="https://raw.githubusercontent.com/Burgyn/burgyn/master/144568359_padded_logo.png" class="me-2" width="32" />
+                <span class="fs-4">MMLib.PostmanDiff v0.1</span>
+            </a>
+        </div>
+    </header>
+    @{
+        await IncludeAsync("CollectionInfoTemplate.cshtml", Model);
+        foreach (var item in Model.Items.OrderBy(i => i.ChangeType))
+        {
+            await IncludeAsync("RequestDetail.cshtml", item);
+        }
+    }
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightElement(block);
+
+                let html = block.innerHTML;
+
+                function markLines(html, markType, tag) {
+                    const regex = new RegExp(`^(\s*)(.+?)\s*<span class="hljs-comment">.*?\\b${markType}\\b.*?<\/span>$`, 'mg');
+                    return html.replaceAll(regex, `$1<${tag}>$2</${tag}>`);
+                }
+
+                html = markLines(html, 'mark-deleted', 'mark-deleted');
+                html = markLines(html, 'mark-added', 'mark-added');
+                html = markLines(html, 'mark-changed', 'mark-changed');
+
+                if (block.innerHTML !== html) {
+                    block.innerHTML = html;
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

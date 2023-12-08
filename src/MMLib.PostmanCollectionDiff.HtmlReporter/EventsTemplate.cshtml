@@ -1,0 +1,24 @@
+@using DiffPlex.DiffBuilder.Model
+@using MMLib.PostmanCollectionDiff.HtmlReporter
+@model MMLib.PostmanCollectionDiff.Comparer.EventsDiff
+
+@{
+    if (Model.Events?.Any() == false)
+    {
+        return;
+    }
+}
+
+<div class="container-fluid">
+    @{
+        foreach (var item in Model.Events!)
+        {
+            <h5>Events - @item.Listen</h5>
+            await IncludeAsync("CodeDiffTemplate", new CodeDiffInfo()
+            {
+                Language = "javascript",
+                CodeDiff = item.Script.Exec
+            });
+        }
+    }
+</div>

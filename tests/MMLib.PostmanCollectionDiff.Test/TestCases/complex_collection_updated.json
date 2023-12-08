@@ -1,0 +1,750 @@
+{
+    "info": {
+        "_postman_id": "3d29736f-de57-4ad7-bfa3-a68f677f04df",
+        "name": "Sample.Products",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "245575"
+    },
+    "item": [
+        {
+            "name": "api",
+            "item": [
+                {
+                    "name": "framework",
+                    "item": [
+                        {
+                            "name": "products",
+                            "item": [
+                                {
+                                    "name": "By ID",
+                                    "item": [
+                                        {
+                                            "name": "Get Product by id - name changed.",
+                                            "event": [
+                                                {
+                                                    "listen": "prerequest",
+                                                    "script": {
+                                                        "exec": [
+                                                            "pm.environment.set(\"Temp.Get.Id\", 22);"
+                                                        ],
+                                                        "type": "text/javascript"
+                                                    }
+                                                }
+                                            ],
+                                            "request": {
+                                                "auth": {
+                                                    "type": "bearer",
+                                                    "bearer": [
+                                                        {
+                                                            "key": "token",
+                                                            "value": "{{beartoken}}",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                "method": "GET",
+                                                "header": [
+                                                    {
+                                                        "key": "Accept",
+                                                        "value": "application/json"
+                                                    },
+                                                    {
+                                                        "key": "postman-test",
+                                                        "value": "version1",
+                                                        "description": "Only for testing",
+                                                        "type": "text"
+                                                    }
+                                                ],
+                                                "url": {
+                                                    "raw": "{{baseUrl}}/api/:tenantId/products/:id?use-tracking=false",
+                                                    "host": [
+                                                        "{{baseUrl}}"
+                                                    ],
+                                                    "path": [
+                                                        "api",
+                                                        ":tenantId",
+                                                        "products",
+                                                        ":id"
+                                                    ],
+                                                    "query": [
+                                                        {
+                                                            "key": "use-tracking",
+                                                            "value": "false"
+                                                        }
+                                                    ],
+                                                    "variable": [
+                                                        {
+                                                            "key": "tenantId",
+                                                            "value": "<string>"
+                                                        },
+                                                        {
+                                                            "key": "id",
+                                                            "value": "<string>"
+                                                        }
+                                                    ]
+                                                },
+                                                "description": "Endpoint for access to Product."
+                                            },
+                                            "response": []
+                                        },
+                                        {
+                                            "name": "Update Product.",
+                                            "request": {
+                                                "method": "PATCH",
+                                                "header": [
+                                                    {
+                                                        "key": "Content-Type",
+                                                        "value": "application/json"
+                                                    },
+                                                    {
+                                                        "key": "Accept",
+                                                        "value": "application/problem+json"
+                                                    }
+                                                ],
+                                                "body": {
+                                                    "mode": "raw",
+                                                    "raw": "{\n  \"operations\": [\n    {\n      \"path\": \"new value\",\n      \"op\": \"<string>\",\n      \"from\": \"<string>\",\n      \"value\": {\n        \"nullable\": true\n      }\n    },\n    {\n      \"path\": \"<string>\",\n      \"op\": \"<string>\",\n      \"from\": \"<string>\",\n      \"value\": {\n        \"nullable\": true\n      }\n    }\n  ]\n}",
+                                                    "options": {
+                                                        "raw": {
+                                                            "headerFamily": "json",
+                                                            "language": "json"
+                                                        }
+                                                    }
+                                                },
+                                                "url": {
+                                                    "raw": "{{baseUrl}}/api/:tenantId/products/:id",
+                                                    "host": [
+                                                        "{{baseUrl}}"
+                                                    ],
+                                                    "path": [
+                                                        "api",
+                                                        ":tenantId",
+                                                        "products",
+                                                        ":id"
+                                                    ],
+                                                    "variable": [
+                                                        {
+                                                            "key": "tenantId",
+                                                            "value": "<string>"
+                                                        },
+                                                        {
+                                                            "key": "id",
+                                                            "value": "<string>"
+                                                        }
+                                                    ]
+                                                },
+                                                "description": "Endpoint for update Products."
+                                            },
+                                            "response": []
+                                        },
+                                        {
+                                            "name": "Update Product.",
+                                            "request": {
+                                                "method": "PUT",
+                                                "header": [
+                                                    {
+                                                        "key": "Content-Type",
+                                                        "value": "application/json"
+                                                    },
+                                                    {
+                                                        "key": "Accept",
+                                                        "value": "application/problem+json"
+                                                    }
+                                                ],
+                                                "body": {
+                                                    "mode": "raw",
+                                                    "raw": "{\n  \"id\": \"<uuid>\",\n  \"extraProps\": {\n    \"elit_4ea\": {},\n    \"reprehenderit_fbe\": {},\n    \"culpa1\": {}\n  },\n  \"createdTimestamp\": \"<dateTime>\",\n  \"createdBy\": \"<string>\",\n  \"lastModifiedTimestamp\": \"<dateTime>\",\n  \"lastModifiedBy\": \"<string>\",\n  \"code\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"price\": \"<double>\",\n  \"purchasePrice\": \"<double>\",\n  \"pictureFileName\": \"<string>\",\n  \"productType\": \"<string>\",\n  \"productBrand\": \"<string>\",\n  \"availableStock\": \"<integer>\"\n}",
+                                                    "options": {
+                                                        "raw": {
+                                                            "headerFamily": "json",
+                                                            "language": "json"
+                                                        }
+                                                    }
+                                                },
+                                                "url": {
+                                                    "raw": "{{baseUrl}}/api/:tenantId/products/:id?new-param=true",
+                                                    "host": [
+                                                        "{{baseUrl}}"
+                                                    ],
+                                                    "path": [
+                                                        "api",
+                                                        ":tenantId",
+                                                        "products",
+                                                        ":id"
+                                                    ],
+                                                    "query": [
+                                                        {
+                                                            "key": "new-param",
+                                                            "value": "true"
+                                                        }
+                                                    ],
+                                                    "variable": [
+                                                        {
+                                                            "key": "tenantId",
+                                                            "value": "<string>"
+                                                        },
+                                                        {
+                                                            "key": "id",
+                                                            "value": "<string>"
+                                                        }
+                                                    ]
+                                                },
+                                                "description": "Endpoint for update Product."
+                                            },
+                                            "response": []
+                                        },
+                                        {
+                                            "name": "Delete Product.",
+                                            "request": {
+                                                "method": "DELETE",
+                                                "header": [],
+                                                "url": {
+                                                    "raw": "{{baseUrl}}/api/:tenantId/products/:id",
+                                                    "host": [
+                                                        "{{baseUrl}}"
+                                                    ],
+                                                    "path": [
+                                                        "api",
+                                                        ":tenantId",
+                                                        "products",
+                                                        ":id"
+                                                    ],
+                                                    "variable": [
+                                                        {
+                                                            "key": "tenantId",
+                                                            "value": "<string>"
+                                                        },
+                                                        {
+                                                            "key": "id",
+                                                            "value": "<string>"
+                                                        }
+                                                    ]
+                                                },
+                                                "description": "Endpoint for delete Product."
+                                            },
+                                            "response": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Empty folder",
+                                    "item": []
+                                },
+                                {
+                                    "name": "Another empty folder - renamed",
+                                    "item": []
+                                },
+                                {
+                                    "name": "Create new Product.",
+                                    "request": {
+                                        "method": "POST",
+                                        "header": [
+                                            {
+                                                "key": "Content-Type",
+                                                "value": "application/json"
+                                            },
+                                            {
+                                                "key": "Accept",
+                                                "value": "application/json"
+                                            }
+                                        ],
+                                        "body": {
+                                            "mode": "raw",
+                                            "raw": "{\n  \"id\": \"<uuid>\",\n  \"extraProps\": {\n    \"elit_4ea\": {},\n    \"reprehenderit_fbe\": {},\n    \"culpa1\": {}\n  },\n  \"createdTimestamp\": \"<dateTime>\",\n  \"createdBy\": \"<string>\",\n  \"lastModifiedTimestamp\": \"<dateTime>\",\n  \"lastModifiedBy\": \"<string>\",\n  \"code\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"price\": \"<double>\",\n  \"purchasePrice\": \"<double>\",\n  \"pictureFileName\": \"<string>\",\n  \"productType\": \"<string>\",\n  \"productBrand\": \"<string>\",\n  \"availableStock\": \"<integer>\"\n}",
+                                            "options": {
+                                                "raw": {
+                                                    "headerFamily": "json",
+                                                    "language": "json"
+                                                }
+                                            }
+                                        },
+                                        "url": {
+                                            "raw": "{{baseUrl}}/api/:tenantId/products",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "api",
+                                                ":tenantId",
+                                                "products"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "tenantId",
+                                                    "value": "<string>"
+                                                }
+                                            ]
+                                        },
+                                        "description": "Endpoint for create new Product."
+                                    },
+                                    "response": []
+                                },
+                                {
+                                    "name": "Create another new Product",
+                                    "request": {
+                                        "method": "POST",
+                                        "header": [
+                                            {
+                                                "key": "Content-Type",
+                                                "value": "application/json"
+                                            },
+                                            {
+                                                "key": "Accept",
+                                                "value": "application/json"
+                                            }
+                                        ],
+                                        "body": {
+                                            "mode": "raw",
+                                            "raw": "{\n  \"id\": \"<uuid>\",\n  \"extraProps\": {\n    \"elit_4ea\": {},\n    \"reprehenderit_fbe\": {},\n    \"culpa1\": {}\n  },\n  \"createdTimestamp\": \"<dateTime>\",\n  \"createdBy\": \"<string>\",\n  \"lastModifiedTimestamp\": \"<dateTime>\",\n  \"lastModifiedBy\": \"<string>\",\n  \"code\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"price\": \"<double>\",\n  \"purchasePrice\": \"<double>\",\n  \"pictureFileName\": \"<string>\",\n  \"productType\": \"<string>\",\n  \"productBrand\": \"<string>\",\n  \"availableStock\": \"<integer>\"\n}",
+                                            "options": {
+                                                "raw": {
+                                                    "headerFamily": "json",
+                                                    "language": "json"
+                                                }
+                                            }
+                                        },
+                                        "url": {
+                                            "raw": "{{baseUrl}}/api/:tenantId/products",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "api",
+                                                ":tenantId",
+                                                "products"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "tenantId",
+                                                    "value": "<string>"
+                                                }
+                                            ]
+                                        },
+                                        "description": "Endpoint for create new Product."
+                                    },
+                                    "response": []
+                                }
+                            ]
+                        }
+                    ],
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{bearerToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "event": [
+                        {
+                            "listen": "prerequest",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    ""
+                                ]
+                            }
+                        },
+                        {
+                            "listen": "test",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    "pm.test(\"Empty test - changes\", function () {    ",
+                                    "});",
+                                    ""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BankAccount",
+            "item": [
+                {
+                    "name": "Get",
+                    "item": [
+                        {
+                            "name": "Seed",
+                            "item": [
+                                {
+                                    "name": "New bank account",
+                                    "event": [
+                                        {
+                                            "listen": "test",
+                                            "script": {
+                                                "exec": [
+                                                    "pm.test(\"Creating bank account should return 201.\", function () {",
+                                                    "    pm.response.to.have.status(201);",
+                                                    "",
+                                                    "    var jsonData = pm.response.json();",
+                                                    "    pm.environment.set(\"Temp.Get.AccountId\", jsonData.id);",
+                                                    "",
+                                                    "    console.log(\"change\")",
+                                                    "});",
+                                                    ""
+                                                ],
+                                                "type": "text/javascript"
+                                            }
+                                        }
+                                    ],
+                                    "request": {
+                                        "method": "POST",
+                                        "header": [
+                                            {
+                                                "key": "Content-Type",
+                                                "name": "Content-Type",
+                                                "value": "application/json",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "body": {
+                                            "mode": "raw",
+                                            "raw": "{\n\t\"Name\": \"PostmanTest_New account\",\n\t\"IBAN\": \"SK2811000000002628740740\"\n}"
+                                        },
+                                        "url": {
+                                            "raw": "{{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts",
+                                            "host": [
+                                                "{{ApiGatewayBaseUrl}}"
+                                            ],
+                                            "path": [
+                                                "companies",
+                                                "{{Temp.BankAccounts.CompanyId}}",
+                                                "bankaccounts"
+                                            ]
+                                        }
+                                    },
+                                    "response": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "New folder",
+                            "item": [
+                                {
+                                    "name": "All",
+                                    "event": [
+                                        {
+                                            "listen": "test",
+                                            "script": {
+                                                "exec": [
+                                                    "pm.test(\"Retrieving list of bank accounts should return status code 200.\", function () {\r",
+                                                    "    pm.response.to.have.status(200);\r",
+                                                    "    pm.response.to.be.json\r",
+                                                    "\r",
+                                                    "    var bankAccounts = pm.response.json();\r",
+                                                    "\r",
+                                                    "    pm.test(\"Retrieving list of bank accounts should return an array but not an object.\", function () {\r",
+                                                    "        pm.expect(bankAccounts).to.be.an('array').but.not.an('object');\r",
+                                                    "    });\r",
+                                                    "\r",
+                                                    "    pm.test(\"Retrieving list of bank accounts should have correct number of items.\", function () {\r",
+                                                    "        pm.expect(bankAccounts.length).to.be.above(0);\r",
+                                                    "    });\r",
+                                                    "\r",
+                                                    "    pm.test(\"Retrieving list of bank accounts should return correct data format in each item.\", function () {\r",
+                                                    "        bankAccounts.forEach(function(bankAccount) {\r",
+                                                    "            pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.BankAccountHeaderSchema\"))).to.be.true;\r",
+                                                    "        });\r",
+                                                    "    });\r",
+                                                    "\r",
+                                                    "    pm.test(\"Retrieving list of bank accounts should return seeded item.\", function () {\r",
+                                                    "        var found = true;\r",
+                                                    "        bankAccounts.forEach(function(bankAccount) {\r",
+                                                    "            if (bankAccount.id == pm.environment.get(\"Temp.Get.AccountId\")) {\r",
+                                                    "                found = true;\r",
+                                                    "            }\r",
+                                                    "        });\r",
+                                                    "        pm.expect(found).to.be.true;\r",
+                                                    "    });\r",
+                                                    "});\r",
+                                                    ""
+                                                ],
+                                                "type": "text/javascript"
+                                            }
+                                        }
+                                    ],
+                                    "request": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts",
+                                            "host": [
+                                                "{{ApiGatewayBaseUrl}}"
+                                            ],
+                                            "path": [
+                                                "companies",
+                                                "{{Temp.BankAccounts.CompanyId}}",
+                                                "bankaccounts"
+                                            ]
+                                        }
+                                    },
+                                    "response": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "By id",
+                            "event": [
+                                {
+                                    "listen": "test",
+                                    "script": {
+                                        "exec": [
+                                            "pm.test(\"Retrieving a single bank account should return status code 200.\", function () {\r",
+                                            "    pm.response.to.have.status(200);\r",
+                                            "\r",
+                                            "    var bankAccount = pm.response.json();\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieving a single bank account should return an object.\", function () {\r",
+                                            "        pm.expect(bankAccount).to.be.an('object');\r",
+                                            "    });\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieving a single bank account should return correct data format.\", function () {\r",
+                                            "        pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.BankAccountFullSchema\"))).to.be.true;\r",
+                                            "    });\r",
+                                            "});\r",
+                                            ""
+                                        ],
+                                        "type": "text/javascript"
+                                    }
+                                }
+                            ],
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts/{{Temp.Get.AccountId}}",
+                                    "host": [
+                                        "{{ApiGatewayBaseUrl}}"
+                                    ],
+                                    "path": [
+                                        "companies",
+                                        "{{Temp.BankAccounts.CompanyId}}",
+                                        "bankaccounts",
+                                        "{{Temp.Get.AccountId}}"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Parse IBAN",
+                            "event": [
+                                {
+                                    "listen": "test",
+                                    "script": {
+                                        "exec": [
+                                            "pm.test(\"Parsing IBAN should return status code 200.\", function () {\r",
+                                            "    pm.response.to.have.status(200);\r",
+                                            "\r",
+                                            "    var bankAccount = pm.response.json();\r",
+                                            "\r",
+                                            "    pm.test(\"Parsing IBAN should return an object.\", function () {\r",
+                                            "        pm.expect(bankAccount).to.be.an('object');\r",
+                                            "    });\r",
+                                            "\r",
+                                            "    pm.test(\"Parsing IBAN should return correct data format.\", function () {\r",
+                                            "        pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.IbanParsingResult\"))).to.be.false;\r",
+                                            "    });\r",
+                                            "});\r",
+                                            ""
+                                        ],
+                                        "type": "text/javascript"
+                                    }
+                                }
+                            ],
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{ApiGatewayBaseUrl}}/bankaccounts/IBANs/SK0202000000002290789159",
+                                    "host": [
+                                        "{{ApiGatewayBaseUrl}}"
+                                    ],
+                                    "path": [
+                                        "bankaccounts",
+                                        "IBANs",
+                                        "SK0202000000002290789159"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Parse incorect IBAN",
+                            "event": [
+                                {
+                                    "listen": "test",
+                                    "script": {
+                                        "exec": [
+                                            "pm.test(\"Parsing IBAN should return status code 200.\", function () {\r",
+                                            "    pm.response.to.have.status(200);\r",
+                                            "\r",
+                                            "    pm.test(\"Parsing IBAN should return correct data format.\", function () {\r",
+                                            "        pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.IbanParsingResult\"))).to.be.false;\r",
+                                            "    });\r",
+                                            "});\r",
+                                            ""
+                                        ],
+                                        "type": "text/javascript"
+                                    }
+                                }
+                            ],
+                            "protocolProfileBehavior": {
+                                "disabledSystemHeaders": {
+                                    "accept": true
+                                }
+                            },
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "key": "new-header",
+                                        "value": "value for new value",
+                                        "type": "text"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "{{ApiGatewayBaseUrl}}/bankaccounts/IBANs/SK0202000000002290789156",
+                                    "host": [
+                                        "{{ApiGatewayBaseUrl}}"
+                                    ],
+                                    "path": [
+                                        "bankaccounts",
+                                        "IBANs",
+                                        "SK0202000000002290789156"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        },
+                        {
+                            "name": "Check calculated values",
+                            "event": [
+                                {
+                                    "listen": "test",
+                                    "script": {
+                                        "exec": [
+                                            "pm.test(\"Retrieving a single bank account should return status code 200.\", function () {\r",
+                                            "    pm.response.to.have.status(200);\r",
+                                            "\r",
+                                            "    var bankAccount = pm.response.json();\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieved bank account should have correct SWIFT.\", function () {\r",
+                                            "        pm.expect(bankAccount.swift).to.equal(\"TATRSKBX\");\r",
+                                            "    });\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieved bank account should have correct account prefix.\", function () {\r",
+                                            "        pm.expect(bankAccount.accountPrefix).to.equal(\"000000\");\r",
+                                            "    });\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieved bank account should have correct account number.\", function () {\r",
+                                            "        pm.expect(bankAccount.accountNumber).to.equal(\"2628740740\");\r",
+                                            "    });\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieved bank account should have correct bank code.\", function () {\r",
+                                            "        pm.expect(bankAccount.bankCode).to.equal(\"1100\");\r",
+                                            "    });\r",
+                                            "\r",
+                                            "    pm.test(\"Retrieved bank account should have correct bank name.\", function () {\r",
+                                            "        pm.expect(bankAccount.bankName).to.equal(\"Tatra banka\");\r",
+                                            "    });\r",
+                                            "});\r",
+                                            ""
+                                        ],
+                                        "type": "text/javascript"
+                                    }
+                                }
+                            ],
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts/{{Temp.Get.AccountId}}",
+                                    "host": [
+                                        "{{ApiGatewayBaseUrl}}"
+                                    ],
+                                    "path": [
+                                        "companies",
+                                        "{{Temp.BankAccounts.CompanyId}}",
+                                        "bankaccounts",
+                                        "{{Temp.Get.AccountId}}"
+                                    ]
+                                }
+                            },
+                            "response": []
+                        }
+                    ],
+                    "event": [
+                        {
+                            "listen": "prerequest",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    "const bankAccountHeaderSchema = {",
+                                    "    \"required\": [\"id\", \"name\", \"iban\", \"swift\", \"bankCode\", \"bankName\"],",
+                                    "    \"properties\": {",
+                                    "        \"id\": {\"type\": \"integer\"},",
+                                    "        \"name\": {\"type\": \"string\"},",
+                                    "        \"iban\": {\"type\": \"string\"},",
+                                    "        \"swift\": {\"type\": \"string\"},",
+                                    "        \"bankCode\": {\"type\": \"string\"},",
+                                    "        \"bankName\": {\"type\": \"string\"}",
+                                    "    }",
+                                    "};",
+                                    "",
+                                    "const bankAccountFullSchema = {",
+                                    "    \"required\": [\"id\", \"name\", \"iban\", \"swift\", \"accountPrefix\",",
+                                    "                 \"accountNumber\", \"bankCode\", \"bankName\"],",
+                                    "    \"properties\": {",
+                                    "        \"id\": {\"type\": \"integer\"},",
+                                    "        \"name\": {\"type\": \"string\"},",
+                                    "        \"iban\": {\"type\": \"string\"},",
+                                    "        \"swift\": {\"type\": \"string\"},",
+                                    "        \"accountPrefix\": {\"type\": \"string\"},",
+                                    "        \"accountNumber\": {\"type\": \"string\"},",
+                                    "        \"bankCode\": {\"type\": \"string\"},",
+                                    "        \"bankName\": {\"type\": \"string\"}",
+                                    "    }",
+                                    "};",
+                                    "",
+                                    "const ibanParsingResult = {",
+                                    "    \"properties\": {",
+                                    "        \"isValid\": {\"type\": \"boolean\"},",
+                                    "        \"swift\": {\"type\": \"string\"},",
+                                    "        \"bankCode\": {\"type\": \"string\"},",
+                                    "        \"bankName\": {\"type\": \"string\"}",
+                                    "    }",
+                                    "};",
+                                    "",
+                                    "pm.environment.set(\"Temp.Get.BankAccountHeaderSchema\", bankAccountHeaderSchema);",
+                                    "pm.environment.set(\"Temp.Get.BankAccountFullSchema\", bankAccountFullSchema);",
+                                    "pm.environment.set(\"Temp.Get.IbanParsingResult\", ibanParsingResult);"
+                                ]
+                            }
+                        },
+                        {
+                            "listen": "test",
+                            "script": {
+                                "type": "text/javascript",
+                                "exec": [
+                                    ""
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseUrl",
+            "value": "/"
+        }
+    ]
+}

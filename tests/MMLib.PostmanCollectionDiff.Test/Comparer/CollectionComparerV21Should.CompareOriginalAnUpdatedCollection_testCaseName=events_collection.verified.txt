@@ -1,0 +1,3433 @@
+﻿{
+  OriginalName: Events - original,
+  UpdatedName: Events - updated,
+  HasDifferences: true,
+  Info: {
+    Diff: {
+      OldText: {
+        Lines: [
+          {
+            Position: 1,
+            Text: {
+          },
+          {
+            Type: Modified,
+            Position: 2,
+            Text: 		"_postman_id": "053c445b-896c-4b41-92bb-d6f6e22288eb",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "_postman_id":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Deleted,
+                Position: 4,
+                Text: "053c445b-896c-4b41-92bb-d6f6e22288eb"
+              },
+              {
+                Position: 5,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Type: Modified,
+            Position: 3,
+            Text: 		"name": "Events - updated",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "name":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Position: 4,
+                Text: "Events
+              },
+              {
+                Position: 5,
+                Text:  
+              },
+              {
+                Position: 6,
+                Text: -
+              },
+              {
+                Position: 7,
+                Text:  
+              },
+              {
+                Type: Deleted,
+                Position: 8,
+                Text: updated"
+              },
+              {
+                Position: 9,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Position: 4,
+            Text: 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+          },
+          {
+            Position: 5,
+            Text: 		"_exporter_id": "245575"
+          },
+          {
+            Position: 6,
+            Text: 	}
+          }
+        ],
+        HasDifferences: true
+      },
+      NewText: {
+        Lines: [
+          {
+            Position: 1,
+            Text: {
+          },
+          {
+            Type: Modified,
+            Position: 2,
+            Text: 		"_postman_id": "bdbe7048-01f0-4d83-8b18-309aac95f8c9",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "_postman_id":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Inserted,
+                Position: 4,
+                Text: "bdbe7048-01f0-4d83-8b18-309aac95f8c9"
+              },
+              {
+                Position: 5,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Type: Modified,
+            Position: 3,
+            Text: 		"name": "Events - original",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "name":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Position: 4,
+                Text: "Events
+              },
+              {
+                Position: 5,
+                Text:  
+              },
+              {
+                Position: 6,
+                Text: -
+              },
+              {
+                Position: 7,
+                Text:  
+              },
+              {
+                Type: Inserted,
+                Position: 8,
+                Text: original"
+              },
+              {
+                Position: 9,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Position: 4,
+            Text: 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+          },
+          {
+            Position: 5,
+            Text: 		"_exporter_id": "245575"
+          },
+          {
+            Position: 6,
+            Text: 	}
+          }
+        ],
+        HasDifferences: true
+      }
+    },
+    HasDifferences: true,
+    Raw:
+{
+		"_postman_id": "bdbe7048-01f0-4d83-8b18-309aac95f8c9",
+		"name": "Events - original",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	},
+    RawOriginal:
+{
+		"_postman_id": "053c445b-896c-4b41-92bb-d6f6e22288eb",
+		"name": "Events - updated",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	}
+  },
+  Variables: [],
+  Auth: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  ProtocolProfileBehavior: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  UnchangedItemCount: 1,
+  Items: [
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Events will be added,
+      FullName: /(GET) Events will be added,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: localhost:5000,
+          Updated: localhost:5000,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Inserted,
+                      Position: 1,
+                      Text: pm.test("Retrieving non existing bank account should return status code 404.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(404);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text: });
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving non existing bank account should return status code 404.", function () {
+    pm.response.to.have.status(404);
+});,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Inserted,
+                      Position: 1,
+                      Text: pm.test("Retrieving non existing bank account should return status code 404.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(404);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text: });
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving non existing bank account should return status code 404.", function () {
+    pm.response.to.have.status(404);
+});,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Events will be removed,
+      FullName: /(GET) Events will be removed,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: localhost:5000,
+          Updated: localhost:5000,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: pm.test("Retrieving list of bank accounts should return status code 200.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 3,
+                      Text:     pm.response.to.be.json
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text:     var bankAccounts = pm.response.json();
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 6,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 7,
+                      Text:     pm.test("Retrieving list of bank accounts should return an array but not an object.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 8,
+                      Text:         pm.expect(bankAccounts).to.be.an('array').but.not.an('object');
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 9,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 10,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 11,
+                      Text:     pm.test("Retrieving list of bank accounts should have correct number of items.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 12,
+                      Text:         pm.expect(bankAccounts.length).to.be.above(0);
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 13,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 14,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 15,
+                      Text:     pm.test("Retrieving list of bank accounts should return correct data format in each item.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 16,
+                      Text:         bankAccounts.forEach(function(bankAccount) {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 17,
+                      Text:             pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.BankAccountHeaderSchema"))).to.be.true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 18,
+                      Text:         });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 19,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 20,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 21,
+                      Text:     pm.test("Retrieving list of bank accounts should return seeded item.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 22,
+                      Text:         var found = true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 23,
+                      Text:         bankAccounts.forEach(function(bankAccount) {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 24,
+                      Text:             if (bankAccount.id == pm.environment.get("Temp.Get.AccountId")) {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 25,
+                      Text:                 found = true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 26,
+                      Text:             }
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 27,
+                      Text:         });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 28,
+                      Text:         pm.expect(found).to.be.true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 29,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 30,
+                      Text: });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 31,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal:
+pm.test("Retrieving list of bank accounts should return status code 200.", function () {
+    pm.response.to.have.status(200);
+    pm.response.to.be.json
+
+    var bankAccounts = pm.response.json();
+
+    pm.test("Retrieving list of bank accounts should return an array but not an object.", function () {
+        pm.expect(bankAccounts).to.be.an('array').but.not.an('object');
+    });
+
+    pm.test("Retrieving list of bank accounts should have correct number of items.", function () {
+        pm.expect(bankAccounts.length).to.be.above(0);
+    });
+
+    pm.test("Retrieving list of bank accounts should return correct data format in each item.", function () {
+        bankAccounts.forEach(function(bankAccount) {
+            pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.BankAccountHeaderSchema"))).to.be.true;
+        });
+    });
+
+    pm.test("Retrieving list of bank accounts should return seeded item.", function () {
+        var found = true;
+        bankAccounts.forEach(function(bankAccount) {
+            if (bankAccount.id == pm.environment.get("Temp.Get.AccountId")) {
+                found = true;
+            }
+        });
+        pm.expect(found).to.be.true;
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: console.log("Prerequest scripts");
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal: console.log("Prerequest scripts");
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Events with simple change,
+      FullName: /(GET) Events with simple change,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: localhost:5000,
+          Updated: localhost:5000,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: console.log("First step");,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: console
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: log
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "First
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 7,
+                          Text: step"
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 8,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 2,
+                      Text: console.log("Second step");
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: console.log("First step - change");,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: console
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: log
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "First
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 7,
+                          Text: step
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 9,
+                          Text: -
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 10,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 11,
+                          Text: change"
+                        },
+                        {
+                          Position: 12,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 2,
+                      Text: console.log("Second step");
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text: console.log("new line");
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+console.log("First step - change");
+console.log("Second step");
+console.log("new line");,
+              RawOriginal:
+console.log("First step");
+console.log("Second step");
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: pm.test("Retrieving non existing bank account should return status code 404.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: test
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "Retrieving
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Position: 7,
+                          Text: non
+                        },
+                        {
+                          Position: 8,
+                          Text:  
+                        },
+                        {
+                          Position: 9,
+                          Text: existing
+                        },
+                        {
+                          Position: 10,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 11,
+                          Text: bank
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 13,
+                          Text: account
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 14,
+                          Text:  
+                        },
+                        {
+                          Position: 15,
+                          Text: should
+                        },
+                        {
+                          Position: 16,
+                          Text:  
+                        },
+                        {
+                          Position: 17,
+                          Text: return
+                        },
+                        {
+                          Position: 18,
+                          Text:  
+                        },
+                        {
+                          Position: 19,
+                          Text: status
+                        },
+                        {
+                          Position: 20,
+                          Text:  
+                        },
+                        {
+                          Position: 21,
+                          Text: code
+                        },
+                        {
+                          Position: 22,
+                          Text:  
+                        },
+                        {
+                          Position: 23,
+                          Text: 404
+                        },
+                        {
+                          Position: 24,
+                          Text: .
+                        },
+                        {
+                          Position: 25,
+                          Text: "
+                        },
+                        {
+                          Position: 26,
+                          Text: , 
+                        },
+                        {
+                          Position: 27,
+                          Text: function
+                        },
+                        {
+                          Position: 28,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(404);,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: response
+                        },
+                        {
+                          Position: 5,
+                          Text: .
+                        },
+                        {
+                          Position: 6,
+                          Text: to
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: have
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Position: 10,
+                          Text: status
+                        },
+                        {
+                          Position: 11,
+                          Text: (
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text: 404
+                        },
+                        {
+                          Position: 13,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 3,
+                      Text: });
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: pm.test("Retrieving non existing should return status code 404.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: test
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "Retrieving
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Position: 7,
+                          Text: non
+                        },
+                        {
+                          Position: 8,
+                          Text:  
+                        },
+                        {
+                          Position: 9,
+                          Text: existing
+                        },
+                        {
+                          Position: 10,
+                          Text:  
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 11,
+                          Text: should
+                        },
+                        {
+                          Position: 12,
+                          Text:  
+                        },
+                        {
+                          Position: 13,
+                          Text: return
+                        },
+                        {
+                          Position: 14,
+                          Text:  
+                        },
+                        {
+                          Position: 15,
+                          Text: status
+                        },
+                        {
+                          Position: 16,
+                          Text:  
+                        },
+                        {
+                          Position: 17,
+                          Text: code
+                        },
+                        {
+                          Position: 18,
+                          Text:  
+                        },
+                        {
+                          Position: 19,
+                          Text: 404
+                        },
+                        {
+                          Position: 20,
+                          Text: .
+                        },
+                        {
+                          Position: 21,
+                          Text: "
+                        },
+                        {
+                          Position: 22,
+                          Text: , 
+                        },
+                        {
+                          Position: 23,
+                          Text: function
+                        },
+                        {
+                          Position: 24,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(400);,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: response
+                        },
+                        {
+                          Position: 5,
+                          Text: .
+                        },
+                        {
+                          Position: 6,
+                          Text: to
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: have
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Position: 10,
+                          Text: status
+                        },
+                        {
+                          Position: 11,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 12,
+                          Text: 400
+                        },
+                        {
+                          Position: 13,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text:     console.log("test");
+                    },
+                    {
+                      Position: 4,
+                      Text: });
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving non existing should return status code 404.", function () {
+    pm.response.to.have.status(400);
+    console.log("test");
+});,
+              RawOriginal:
+pm.test("Retrieving non existing bank account should return status code 404.", function () {
+    pm.response.to.have.status(404);
+});
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Events with complex change,
+      FullName: /(GET) Events with complex change,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: localhost:5000,
+          Updated: localhost:5000,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: test
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "Parsing
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Position: 7,
+                          Text: IBAN
+                        },
+                        {
+                          Position: 8,
+                          Text:  
+                        },
+                        {
+                          Position: 9,
+                          Text: should
+                        },
+                        {
+                          Position: 10,
+                          Text:  
+                        },
+                        {
+                          Position: 11,
+                          Text: return
+                        },
+                        {
+                          Position: 12,
+                          Text:  
+                        },
+                        {
+                          Position: 13,
+                          Text: status
+                        },
+                        {
+                          Position: 14,
+                          Text:  
+                        },
+                        {
+                          Position: 15,
+                          Text: code
+                        },
+                        {
+                          Position: 16,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 17,
+                          Text: 200
+                        },
+                        {
+                          Position: 18,
+                          Text: .
+                        },
+                        {
+                          Position: 19,
+                          Text: "
+                        },
+                        {
+                          Position: 20,
+                          Text: , 
+                        },
+                        {
+                          Position: 21,
+                          Text: function
+                        },
+                        {
+                          Position: 22,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: response
+                        },
+                        {
+                          Position: 5,
+                          Text: .
+                        },
+                        {
+                          Position: 6,
+                          Text: to
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: have
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Position: 10,
+                          Text: status
+                        },
+                        {
+                          Position: 11,
+                          Text: (
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text: 200
+                        },
+                        {
+                          Position: 13,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var bankAccount = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 6,
+                      Text:     pm.test("Parsing IBAN should return an object.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: test
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Position: 6,
+                          Text: "Parsing
+                        },
+                        {
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Position: 8,
+                          Text: IBAN
+                        },
+                        {
+                          Position: 9,
+                          Text:  
+                        },
+                        {
+                          Position: 10,
+                          Text: should
+                        },
+                        {
+                          Position: 11,
+                          Text:  
+                        },
+                        {
+                          Position: 12,
+                          Text: return
+                        },
+                        {
+                          Position: 13,
+                          Text:  
+                        },
+                        {
+                          Position: 14,
+                          Text: an
+                        },
+                        {
+                          Position: 15,
+                          Text:  
+                        },
+                        {
+                          Position: 16,
+                          Text: object
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 17,
+                          Text: .
+                        },
+                        {
+                          Position: 18,
+                          Text: "
+                        },
+                        {
+                          Position: 19,
+                          Text: , 
+                        },
+                        {
+                          Position: 20,
+                          Text: function
+                        },
+                        {
+                          Position: 21,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(bankAccount).to.be.an('object');
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 10,
+                      Text:     pm.test("Parsing IBAN should return correct data format.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 4,
+                          Text: test
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 6,
+                          Text: "Parsing
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 8,
+                          Text: IBAN
+                        },
+                        {
+                          Position: 9,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 10,
+                          Text: should
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 11,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text: return
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 13,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 14,
+                          Text: correct
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 15,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 16,
+                          Text: data
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 17,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 18,
+                          Text: format
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 19,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 20,
+                          Text: "
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 21,
+                          Text: , 
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 22,
+                          Text: function
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 23,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 11,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 12,
+                      Text:     });
+                    },
+                    {
+                      Position: 13,
+                      Text: });
+                    },
+                    {
+                      Position: 14,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 201.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: test
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "Parsing
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Position: 7,
+                          Text: IBAN
+                        },
+                        {
+                          Position: 8,
+                          Text:  
+                        },
+                        {
+                          Position: 9,
+                          Text: should
+                        },
+                        {
+                          Position: 10,
+                          Text:  
+                        },
+                        {
+                          Position: 11,
+                          Text: return
+                        },
+                        {
+                          Position: 12,
+                          Text:  
+                        },
+                        {
+                          Position: 13,
+                          Text: status
+                        },
+                        {
+                          Position: 14,
+                          Text:  
+                        },
+                        {
+                          Position: 15,
+                          Text: code
+                        },
+                        {
+                          Position: 16,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 17,
+                          Text: 201
+                        },
+                        {
+                          Position: 18,
+                          Text: .
+                        },
+                        {
+                          Position: 19,
+                          Text: "
+                        },
+                        {
+                          Position: 20,
+                          Text: , 
+                        },
+                        {
+                          Position: 21,
+                          Text: function
+                        },
+                        {
+                          Position: 22,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(201);,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: response
+                        },
+                        {
+                          Position: 5,
+                          Text: .
+                        },
+                        {
+                          Position: 6,
+                          Text: to
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: have
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Position: 10,
+                          Text: status
+                        },
+                        {
+                          Position: 11,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 12,
+                          Text: 201
+                        },
+                        {
+                          Position: 13,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var bankAccount = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 6,
+                      Text:     pm.test("Parsing IBAN should return an object - new.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: test
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Position: 6,
+                          Text: "Parsing
+                        },
+                        {
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Position: 8,
+                          Text: IBAN
+                        },
+                        {
+                          Position: 9,
+                          Text:  
+                        },
+                        {
+                          Position: 10,
+                          Text: should
+                        },
+                        {
+                          Position: 11,
+                          Text:  
+                        },
+                        {
+                          Position: 12,
+                          Text: return
+                        },
+                        {
+                          Position: 13,
+                          Text:  
+                        },
+                        {
+                          Position: 14,
+                          Text: an
+                        },
+                        {
+                          Position: 15,
+                          Text:  
+                        },
+                        {
+                          Position: 16,
+                          Text: object
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 17,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 18,
+                          Text: -
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 19,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 20,
+                          Text: new
+                        },
+                        {
+                          Position: 21,
+                          Text: .
+                        },
+                        {
+                          Position: 22,
+                          Text: "
+                        },
+                        {
+                          Position: 23,
+                          Text: , 
+                        },
+                        {
+                          Position: 24,
+                          Text: function
+                        },
+                        {
+                          Position: 25,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(bankAccount).to.be.an('object');
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 10,
+                      Text:     console.log("New line");,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 2,
+                          Text: console
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 4,
+                          Text: log
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 6,
+                          Text: "New
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text: line"
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 9,
+                          Text: );
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        }
+                      ]
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 11,
+                      Text: });
+                    },
+                    {
+                      Position: 12,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Parsing IBAN should return status code 201.", function () {
+    pm.response.to.have.status(201);
+
+    var bankAccount = pm.response.json();
+
+    pm.test("Parsing IBAN should return an object - new.", function () {
+        pm.expect(bankAccount).to.be.an('object');
+    });
+
+    console.log("New line");
+});
+,
+              RawOriginal:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var bankAccount = pm.response.json();
+
+    pm.test("Parsing IBAN should return an object.", function () {
+        pm.expect(bankAccount).to.be.an('object');
+    });
+
+    pm.test("Parsing IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 4,
+                      Text:     var bankAccount = pm.response.json();,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 2,
+                          Text: var
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 3,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 4,
+                          Text: bankAccount
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 5,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 6,
+                          Text: =
+                        },
+                        {
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 8,
+                          Text: pm
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 10,
+                          Text: response
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 11,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text: json
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 13,
+                          Text: ();
+                        }
+                      ]
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 6,
+                      Text:     pm.test("Parsing IBAN should return an object.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 4,
+                          Text: test
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 6,
+                          Text: "Parsing
+                        },
+                        {
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 8,
+                          Text: IBAN
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 9,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 10,
+                          Text: should
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 11,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text: return
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 13,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 14,
+                          Text: an
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 15,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 16,
+                          Text: object
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 17,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 18,
+                          Text: "
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 19,
+                          Text: , 
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 20,
+                          Text: function
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 21,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 7,
+                      Text:         pm.expect(bankAccount).to.be.an('object');
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 10,
+                      Text:     pm.test("Parsing IBAN should return correct data format.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 11,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;
+                    },
+                    {
+                      Position: 12,
+                      Text:     });
+                    },
+                    {
+                      Position: 13,
+                      Text: });
+                    },
+                    {
+                      Position: 14,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 4,
+                      Text:     pm.test("IBAN should return correct data format.", function () {,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 4,
+                          Text: test
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 6,
+                          Text: "IBAN
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text: should
+                        },
+                        {
+                          Position: 9,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 10,
+                          Text: return
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 11,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 12,
+                          Text: correct
+                        },
+                        {
+                          Position: 13,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 14,
+                          Text: data
+                        },
+                        {
+                          Position: 15,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 16,
+                          Text: format
+                        },
+                        {
+                          Position: 17,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 18,
+                          Text: "
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 19,
+                          Text: , 
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 20,
+                          Text: function
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 21,
+                          Text:  () {
+                        }
+                      ]
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 5,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.false;
+                    },
+                    {
+                      Position: 6,
+                      Text: 
+                    },
+                    {
+                      Type: Modified,
+                      Position: 7,
+                      Text:         console.log("new line");,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:         
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 2,
+                          Text: console
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 4,
+                          Text: log
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 6,
+                          Text: "new
+                        },
+                        {
+                          Position: 7,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text: line"
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 9,
+                          Text: );
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        }
+                      ]
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: });
+                    },
+                    {
+                      Position: 10,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    pm.test("IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.false;
+
+        console.log("new line");
+    });
+});
+,
+              RawOriginal:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var bankAccount = pm.response.json();
+
+    pm.test("Parsing IBAN should return an object.", function () {
+        pm.expect(bankAccount).to.be.an('object');
+    });
+
+    pm.test("Parsing IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    }
+  ]
+}

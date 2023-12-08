@@ -1,0 +1,3841 @@
+﻿{
+  OriginalName: Original products collection,
+  UpdatedName: Updated products collection,
+  HasDifferences: true,
+  Info: {
+    Diff: {
+      OldText: {
+        Lines: [
+          {
+            Position: 1,
+            Text: {
+          },
+          {
+            Type: Modified,
+            Position: 2,
+            Text: 		"_postman_id": "3895efeb-0375-4966-827a-5ae4a3fa6de1",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "_postman_id":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Deleted,
+                Position: 4,
+                Text: "3895efeb-0375-4966-827a-5ae4a3fa6de1"
+              },
+              {
+                Position: 5,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Type: Modified,
+            Position: 3,
+            Text: 		"name": "Updated products collection",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "name":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Deleted,
+                Position: 4,
+                Text: "Updated
+              },
+              {
+                Position: 5,
+                Text:  
+              },
+              {
+                Position: 6,
+                Text: products
+              },
+              {
+                Position: 7,
+                Text:  
+              },
+              {
+                Position: 8,
+                Text: collection"
+              },
+              {
+                Position: 9,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Position: 4,
+            Text: 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+          },
+          {
+            Position: 5,
+            Text: 		"_exporter_id": "245575"
+          },
+          {
+            Position: 6,
+            Text: 	}
+          }
+        ],
+        HasDifferences: true
+      },
+      NewText: {
+        Lines: [
+          {
+            Position: 1,
+            Text: {
+          },
+          {
+            Type: Modified,
+            Position: 2,
+            Text: 		"_postman_id": "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "_postman_id":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Inserted,
+                Position: 4,
+                Text: "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0"
+              },
+              {
+                Position: 5,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Type: Modified,
+            Position: 3,
+            Text: 		"name": "Original products collection",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "name":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Inserted,
+                Position: 4,
+                Text: "Original
+              },
+              {
+                Position: 5,
+                Text:  
+              },
+              {
+                Position: 6,
+                Text: products
+              },
+              {
+                Position: 7,
+                Text:  
+              },
+              {
+                Position: 8,
+                Text: collection"
+              },
+              {
+                Position: 9,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Position: 4,
+            Text: 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+          },
+          {
+            Position: 5,
+            Text: 		"_exporter_id": "245575"
+          },
+          {
+            Position: 6,
+            Text: 	}
+          }
+        ],
+        HasDifferences: true
+      }
+    },
+    HasDifferences: true,
+    Raw:
+{
+		"_postman_id": "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0",
+		"name": "Original products collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	},
+    RawOriginal:
+{
+		"_postman_id": "3895efeb-0375-4966-827a-5ae4a3fa6de1",
+		"name": "Updated products collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	}
+  },
+  Variables: [
+    {
+      Key: baseUrl,
+      Value: {
+        Original: /,
+        Updated: /,
+        HasDifferences: false
+      },
+      HasDifferences: false
+    }
+  ],
+  Auth: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  ProtocolProfileBehavior: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  UnchangedItemCount: 3,
+  Items: [
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Update Product full changed.,
+      FullName: /products/{id}/(PUT) Update Product full changed.,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id/somethingnew,
+          HasDifferences: true
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: PUT,
+          Updated: PUT,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for update Product.
+                }
+              ],
+              HasDifferences: false
+            },
+            NewText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for update Product.
+                }
+              ],
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: Endpoint for update Product.,
+          RawOriginal: Endpoint for update Product.
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 3,
+                    Text:   "extraProps": {
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 4,
+                    Text:     "Excepteur48": {},
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 5,
+                    Text:     "amet_2": {},
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 6,
+                    Text:     "quis_5f": {}
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 7,
+                    Text:   },
+                  },
+                  {
+                    Position: 8,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 9,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Position: 10,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 11,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 12,
+                    Text:   "code": "<string>",
+                  },
+                  {
+                    Type: Deleted,
+                    Position: 13,
+                    Text:   "name": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Position: 16,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Position: 17,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Position: 18,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Position: 19,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Position: 20,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Position: 21,
+                    Text: }
+                  }
+                ],
+                HasDifferences: true
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Position: 3,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 4,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Position: 5,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 6,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Position: 7,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Position: 8,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Position: 9,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Position: 10,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Position: 11,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Position: 12,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 13,
+                    Text:   "productBrand2": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Position: 15,
+                    Text: }
+                  }
+                ],
+                HasDifferences: true
+              }
+            },
+            HasDifferences: true,
+            Raw:
+{
+  "id": "<uuid>",
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "productBrand2": "<string>",
+  "availableStock": "<integer>"
+},
+            RawOriginal:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "Excepteur48": {},
+    "amet_2": {},
+    "quis_5f": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+}
+          },
+          Urlencoded: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Formdata: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          File: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Options: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text: 										"raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text: 											"headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text: 											"language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text: 										}
+                  },
+                  {
+                    Position: 6,
+                    Text: 									}
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text: 										"raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text: 											"headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text: 											"language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text: 										}
+                  },
+                  {
+                    Position: 6,
+                    Text: 									}
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									},
+            RawOriginal:
+{
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: true
+        },
+        Headers: [
+          {
+            Key: Accept,
+            Value: {
+              Original: application/problem+json,
+              Updated: application/problem+json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          {
+            Key: new-header,
+            Value: {
+              Updated: value for new header,
+              HasDifferences: false
+            },
+            HasDifferences: true,
+            ChangeType: Inserted,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          },
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              HasDifferences: true
+            },
+            HasDifferences: true,
+            ChangeType: Deleted,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Retrieving new reminder should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text:     var reminders = pm.response.json();
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 6,
+                      Text:     pm.test("Retrieving new reminder should return correct subject.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 7,
+                      Text:         pm.expect(reminders.subject).to.be.eql("Upomienka")
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Position: 10,
+                      Text:     pm.test("Retrieving new reminder should return correct body.", function () {
+                    },
+                    {
+                      Position: 11,
+                      Text:         var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 12,
+                      Text:         pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+                    },
+                    {
+                      Position: 13,
+                      Text:     });
+                    },
+                    {
+                      Position: 14,
+                      Text: });
+                    },
+                    {
+                      Position: 15,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Retrieving new reminder should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 4,
+                      Text:     pm.test("Retrieving new reminder should return correct body.", function () {
+                    },
+                    {
+                      Position: 5,
+                      Text:         var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 6,
+                      Text:         pm.response.to.have.status(201);
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: });
+                    },
+                    {
+                      Position: 10,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving new reminder should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    pm.test("Retrieving new reminder should return correct body.", function () {
+        var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+        pm.response.to.have.status(201);
+        pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+    });
+});
+,
+              RawOriginal:
+pm.test("Retrieving new reminder should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var reminders = pm.response.json();
+
+    pm.test("Retrieving new reminder should return correct subject.", function () {
+        pm.expect(reminders.subject).to.be.eql("Upomienka")
+    });
+
+    pm.test("Retrieving new reminder should return correct body.", function () {
+        var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+        pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: const badRequestSchema = {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     "required": ["status", "errors", "title"],
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: "required":
+                        },
+                        {
+                          Position: 3,
+                          Text:  
+                        },
+                        {
+                          Position: 4,
+                          Text: ["status"
+                        },
+                        {
+                          Position: 5,
+                          Text: , 
+                        },
+                        {
+                          Position: 6,
+                          Text: "errors"
+                        },
+                        {
+                          Position: 7,
+                          Text: , 
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 8,
+                          Text: "title"]
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        }
+                      ]
+                    },
+                    {
+                      Position: 3,
+                      Text: };
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: pm.environment.set("Temp.Create.BadRequestSchema", badRequestSchema);
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: const badRequestSchema = {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     "required": ["status", "errors", "title", "something_else"],
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: "required":
+                        },
+                        {
+                          Position: 3,
+                          Text:  
+                        },
+                        {
+                          Position: 4,
+                          Text: ["status"
+                        },
+                        {
+                          Position: 5,
+                          Text: , 
+                        },
+                        {
+                          Position: 6,
+                          Text: "errors"
+                        },
+                        {
+                          Position: 7,
+                          Text: , 
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text: "title"
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 9,
+                          Text: , 
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 10,
+                          Text: "something_else"]
+                        }
+                      ]
+                    },
+                    {
+                      Position: 3,
+                      Text: };
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+const badRequestSchema = {
+    "required": ["status", "errors", "title", "something_else"]
+};,
+              RawOriginal:
+const badRequestSchema = {
+    "required": ["status", "errors", "title"]
+};
+
+pm.environment.set("Temp.Create.BadRequestSchema", badRequestSchema);
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: New added request,
+      FullName: /products/{id}/(PUT) New added request,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id/somethingnew,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id/somethingnew,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: PUT,
+          Updated: PUT,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: Endpoint for update Product.
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  }
+                ],
+                HasDifferences: true
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Type: Inserted,
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 3,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 4,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 5,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 6,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 7,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 8,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 9,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 10,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 11,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 12,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 13,
+                    Text:   "productBrand2": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 14,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 15,
+                    Text: }
+                  }
+                ],
+                HasDifferences: true
+              }
+            },
+            HasDifferences: true,
+            Raw:
+{
+  "id": "<uuid>",
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "productBrand2": "<string>",
+  "availableStock": "<integer>"
+},
+            RawOriginal: 
+          },
+          Urlencoded: {
+            HasDifferences: false,
+            Raw: 
+          },
+          Formdata: {
+            HasDifferences: false,
+            Raw: 
+          },
+          File: {
+            HasDifferences: false,
+            Raw: 
+          },
+          Options: {
+            HasDifferences: false,
+            Raw:
+{
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: true
+        },
+        Headers: [
+          {
+            Key: Accept,
+            Value: {
+              Original: application/problem+json,
+              Updated: application/problem+json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          },
+          {
+            Key: new-header,
+            Value: {
+              Original: value for new header,
+              Updated: value for new header,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Inserted,
+                      Position: 1,
+                      Text: pm.test("Retrieving new reminder should return status code 200.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 4,
+                      Text:     pm.test("Retrieving new reminder should return correct body.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 5,
+                      Text:         var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 6,
+                      Text:         pm.response.to.have.status(201);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 7,
+                      Text:         pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 9,
+                      Text: });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 10,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving new reminder should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    pm.test("Retrieving new reminder should return correct body.", function () {
+        var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+        pm.response.to.have.status(201);
+        pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+    });
+});
+,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Inserted,
+                      Position: 1,
+                      Text: const badRequestSchema = {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 2,
+                      Text:     "required": ["status", "errors", "title", "something_else"]
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text: };
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+const badRequestSchema = {
+    "required": ["status", "errors", "title", "something_else"]
+};,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Empty folder with prerequest,
+      FullName: /products/Empty folder with prerequest,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: const reminderHeaderSchema = {
+                    },
+                    {
+                      Position: 2,
+                      Text:     "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+                    },
+                    {
+                      Position: 3,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 4,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Position: 5,
+                      Text:         "bcc": {"type": "string"},
+                    },
+                    {
+                      Position: 6,
+                      Text:         "subject": {"type": "string"},
+                    },
+                    {
+                      Position: 7,
+                      Text:         "body": {"type": "string"},
+                    },
+                    {
+                      Position: 8,
+                      Text:         "daysOverdue": {"type": "integer"}
+                    },
+                    {
+                      Position: 9,
+                      Text:     }
+                    },
+                    {
+                      Position: 10,
+                      Text: };
+                    },
+                    {
+                      Type: Modified,
+                      Position: 11,
+                      Text: ,
+                      SubPieces: [
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        }
+                      ]
+                    },
+                    {
+                      Position: 12,
+                      Text: const reminderFullSchema = {
+                    },
+                    {
+                      Position: 13,
+                      Text:     "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+                    },
+                    {
+                      Position: 14,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 15,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 16,
+                      Text:         "bcc": {"type": "string"},
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 17,
+                      Text:         "subject": {"type": "string"},
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 18,
+                      Text:         "body": {"type": "string"},
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 19,
+                      Text:         "daysOverdue": {"type": "integer"}
+                    },
+                    {
+                      Position: 20,
+                      Text:     }
+                    },
+                    {
+                      Position: 21,
+                      Text: };
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 22,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 23,
+                      Text: pm.environment.set("Temp.Get.ReminderHeaderSchema", reminderHeaderSchema);
+                    },
+                    {
+                      Position: 24,
+                      Text: pm.environment.set("Temp.Get.ReminderFullSchema", reminderFullSchema);
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: const reminderHeaderSchema = {
+                    },
+                    {
+                      Position: 2,
+                      Text:     "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+                    },
+                    {
+                      Position: 3,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 4,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Position: 5,
+                      Text:         "bcc": {"type": "string"},
+                    },
+                    {
+                      Position: 6,
+                      Text:         "subject": {"type": "string"},
+                    },
+                    {
+                      Position: 7,
+                      Text:         "body": {"type": "string"},
+                    },
+                    {
+                      Position: 8,
+                      Text:         "daysOverdue": {"type": "integer"}
+                    },
+                    {
+                      Position: 9,
+                      Text:     }
+                    },
+                    {
+                      Position: 10,
+                      Text: };
+                    },
+                    {
+                      Type: Modified,
+                      Position: 11,
+                      Text: pm.environment.set("Temp.Get.ReminderHeaderSchema", reminderHeaderSchema);,
+                      SubPieces: [
+                        {
+                          Type: Inserted,
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 3,
+                          Text: environment
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 4,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 5,
+                          Text: set
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 6,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 7,
+                          Text: "Temp
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 9,
+                          Text: Get
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 10,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 11,
+                          Text: ReminderHeaderSchema"
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 12,
+                          Text: , 
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 13,
+                          Text: reminderHeaderSchema
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 14,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 12,
+                      Text: const reminderFullSchema = {
+                    },
+                    {
+                      Position: 13,
+                      Text:     "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+                    },
+                    {
+                      Position: 14,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 15,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 16,
+                      Text:     }
+                    },
+                    {
+                      Position: 17,
+                      Text: };
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 18,
+                      Text: pm.environment.set("Temp.Get.ReminderFullSchema", reminderFullSchema);
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+const reminderHeaderSchema = {
+    "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+    "properties": {
+        "id": {"type": "integer"},
+        "bcc": {"type": "string"},
+        "subject": {"type": "string"},
+        "body": {"type": "string"},
+        "daysOverdue": {"type": "integer"}
+    }
+};
+pm.environment.set("Temp.Get.ReminderHeaderSchema", reminderHeaderSchema);
+const reminderFullSchema = {
+    "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+    "properties": {
+        "id": {"type": "integer"},
+    }
+};
+pm.environment.set("Temp.Get.ReminderFullSchema", reminderFullSchema);,
+              RawOriginal:
+const reminderHeaderSchema = {
+    "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+    "properties": {
+        "id": {"type": "integer"},
+        "bcc": {"type": "string"},
+        "subject": {"type": "string"},
+        "body": {"type": "string"},
+        "daysOverdue": {"type": "integer"}
+    }
+};
+
+const reminderFullSchema = {
+    "required": ["id", "bcc", "subject", "body", "daysOverdue"],
+    "properties": {
+        "id": {"type": "integer"},
+        "bcc": {"type": "string"},
+        "subject": {"type": "string"},
+        "body": {"type": "string"},
+        "daysOverdue": {"type": "integer"}
+    }
+};
+
+pm.environment.set("Temp.Get.ReminderHeaderSchema", reminderHeaderSchema);
+pm.environment.set("Temp.Get.ReminderFullSchema", reminderFullSchema);
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: false,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: false
+        }
+      ],
+      IsFolder: true
+    },
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: New added folder,
+      FullName: /products/New added folder,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [],
+      IsFolder: true
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Get Products with changed test.,
+      FullName: /products/(GET) Get Products with changed test.,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products,
+          Updated: {{baseUrl}}/api/:tenantId/products,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: OData endpoint for access to Products.
+                }
+              ],
+              HasDifferences: false
+            },
+            NewText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: OData endpoint for access to Products.
+                }
+              ],
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: OData endpoint for access to Products.,
+          RawOriginal: OData endpoint for access to Products.
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Accept,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Retrieving new reminder should return status code 200.", function () {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: response
+                        },
+                        {
+                          Position: 5,
+                          Text: .
+                        },
+                        {
+                          Position: 6,
+                          Text: to
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: have
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Position: 10,
+                          Text: status
+                        },
+                        {
+                          Position: 11,
+                          Text: (
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 12,
+                          Text: 200
+                        },
+                        {
+                          Position: 13,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var reminders = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Position: 6,
+                      Text:     pm.test("Retrieving new reminder should return correct subject.", function () {
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(reminders.subject).to.be.eql("Upomienka")
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Position: 10,
+                      Text:     pm.test("Retrieving new reminder should return correct body.", function () {
+                    },
+                    {
+                      Position: 11,
+                      Text:         var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 12,
+                      Text:         pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+                    },
+                    {
+                      Position: 13,
+                      Text:     });
+                    },
+                    {
+                      Position: 14,
+                      Text: });
+                    },
+                    {
+                      Position: 15,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Retrieving new reminder should return status code 200.", function () {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(204);,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:     
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: response
+                        },
+                        {
+                          Position: 5,
+                          Text: .
+                        },
+                        {
+                          Position: 6,
+                          Text: to
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: have
+                        },
+                        {
+                          Position: 9,
+                          Text: .
+                        },
+                        {
+                          Position: 10,
+                          Text: status
+                        },
+                        {
+                          Position: 11,
+                          Text: (
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 12,
+                          Text: 204
+                        },
+                        {
+                          Position: 13,
+                          Text: );
+                        }
+                      ]
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var reminders = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Position: 6,
+                      Text:     pm.test("Retrieving new reminder should return correct subject.", function () {
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(reminders.subject).to.be.eql("Upomienka")
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Position: 10,
+                      Text:     pm.test("Retrieving new reminder should return correct body.", function () {
+                    },
+                    {
+                      Position: 11,
+                      Text:         var bodyText = reminders.body.replace(/\r?\n/g, "\n");       
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 12,
+                      Text:     });
+                    },
+                    {
+                      Position: 13,
+                      Text: });
+                    },
+                    {
+                      Position: 14,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving new reminder should return status code 200.", function () {
+    pm.response.to.have.status(204);
+
+    var reminders = pm.response.json();
+
+    pm.test("Retrieving new reminder should return correct subject.", function () {
+        pm.expect(reminders.subject).to.be.eql("Upomienka")
+    });
+
+    pm.test("Retrieving new reminder should return correct body.", function () {
+        var bodyText = reminders.body.replace(/\r?\n/g, "\n");       
+    });
+});
+,
+              RawOriginal:
+pm.test("Retrieving new reminder should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var reminders = pm.response.json();
+
+    pm.test("Retrieving new reminder should return correct subject.", function () {
+        pm.expect(reminders.subject).to.be.eql("Upomienka")
+    });
+
+    pm.test("Retrieving new reminder should return correct body.", function () {
+        var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+        pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Create new Product with added header.,
+      FullName: /products/(POST) Create new Product with added header.,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products,
+          Updated: {{baseUrl}}/api/:tenantId/products,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: POST,
+          Updated: POST,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for create new Product.
+                }
+              ],
+              HasDifferences: false
+            },
+            NewText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for create new Product.
+                }
+              ],
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: Endpoint for create new Product.,
+          RawOriginal: Endpoint for create new Product.
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Position: 3,
+                    Text:   "extraProps": {
+                  },
+                  {
+                    Position: 4,
+                    Text:     "Excepteur48": {},
+                  },
+                  {
+                    Position: 5,
+                    Text:     "amet_2": {},
+                  },
+                  {
+                    Position: 6,
+                    Text:     "quis_5f": {}
+                  },
+                  {
+                    Position: 7,
+                    Text:   },
+                  },
+                  {
+                    Position: 8,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 9,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Position: 10,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 11,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Position: 12,
+                    Text:   "code": "<string>",
+                  },
+                  {
+                    Position: 13,
+                    Text:   "name": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Position: 16,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Position: 17,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Position: 18,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Position: 19,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Position: 20,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Position: 21,
+                    Text: }
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Position: 3,
+                    Text:   "extraProps": {
+                  },
+                  {
+                    Position: 4,
+                    Text:     "Excepteur48": {},
+                  },
+                  {
+                    Position: 5,
+                    Text:     "amet_2": {},
+                  },
+                  {
+                    Position: 6,
+                    Text:     "quis_5f": {}
+                  },
+                  {
+                    Position: 7,
+                    Text:   },
+                  },
+                  {
+                    Position: 8,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 9,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Position: 10,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 11,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Position: 12,
+                    Text:   "code": "<string>",
+                  },
+                  {
+                    Position: 13,
+                    Text:   "name": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Position: 16,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Position: 17,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Position: 18,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Position: 19,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Position: 20,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Position: 21,
+                    Text: }
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "Excepteur48": {},
+    "amet_2": {},
+    "quis_5f": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+},
+            RawOriginal:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "Excepteur48": {},
+    "amet_2": {},
+    "quis_5f": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+}
+          },
+          Urlencoded: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Formdata: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          File: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Options: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text: 								"raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text: 									"headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text: 									"language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text: 								}
+                  },
+                  {
+                    Position: 6,
+                    Text: 							}
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text: 								"raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text: 									"headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text: 									"language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text: 								}
+                  },
+                  {
+                    Position: 6,
+                    Text: 							}
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							},
+            RawOriginal:
+{
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          {
+            Key: Accept,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          {
+            Key: new-header,
+            Value: {
+              Updated: toto je nova hodnota,
+              HasDifferences: false
+            },
+            HasDifferences: true,
+            ChangeType: Inserted,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [],
+      IsFolder: false
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Request for delet,
+      FullName: /products/{id}/(POST) Request for delet,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: POST,
+          Updated: POST,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: Endpoint for update Product.
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false,
+            Raw:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "Excepteur48": {},
+    "amet_2": {},
+    "quis_5f": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+}
+          },
+          Urlencoded: {
+            HasDifferences: false,
+            Raw: 
+          },
+          Formdata: {
+            HasDifferences: false,
+            Raw: 
+          },
+          File: {
+            HasDifferences: false,
+            Raw: 
+          },
+          Options: {
+            HasDifferences: false,
+            Raw:
+{
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          },
+          {
+            Key: Accept,
+            Value: {
+              Original: application/problem+json,
+              Updated: application/problem+json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: pm.test("Retrieving new reminder should return status code 200.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text:     var reminders = pm.response.json();
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 6,
+                      Text:     pm.test("Retrieving new reminder should return correct subject.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 7,
+                      Text:         pm.expect(reminders.subject).to.be.eql("Upomienka")
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 10,
+                      Text:     pm.test("Retrieving new reminder should return correct body.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 11,
+                      Text:         var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 12,
+                      Text:         pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 13,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 14,
+                      Text: });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 15,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal:
+pm.test("Retrieving new reminder should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var reminders = pm.response.json();
+
+    pm.test("Retrieving new reminder should return correct subject.", function () {
+        pm.expect(reminders.subject).to.be.eql("Upomienka")
+    });
+
+    pm.test("Retrieving new reminder should return correct body.", function () {
+        var bodyText = reminders.body.replace(/\r?\n/g, "\n");
+        pm.expect(bodyText).to.be.eql("Vážený zákazník,\n\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\n\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\n\nS pozdravom");
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: const badRequestSchema = {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 2,
+                      Text:     "required": ["status", "errors", "title"]
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 3,
+                      Text: };
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: pm.environment.set("Temp.Create.BadRequestSchema", badRequestSchema);
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal:
+const badRequestSchema = {
+    "required": ["status", "errors", "title"]
+};
+
+pm.environment.set("Temp.Create.BadRequestSchema", badRequestSchema);
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Folder for delete,
+      FullName: /products/Folder for delete,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [],
+      IsFolder: true
+    }
+  ]
+}

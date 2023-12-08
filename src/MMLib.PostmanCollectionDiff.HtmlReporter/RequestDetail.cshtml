@@ -1,0 +1,26 @@
+﻿@using MMLib.PostmanCollectionDiff.HtmlReporter;
+@model MMLib.PostmanCollectionDiff.Comparer.ItemDiff
+@{
+    var id = Model.Name.GetHashCode();
+    var emoji = RazorHelper.ItemTypeToEmoji(Model);
+    var color = RazorHelper.ChangeTypeToCssClass(Model.ChangeType);
+}
+<div class='accordion-item'>
+    <h2 class='accordion-header' id='heading-@(@id)'>
+        <button class='accordion-button bg-success text-white @(@color)' type='button' data-bs-toggle='collapse'
+                data-bs-target='#collapse-@(@id)' aria-expanded='true' aria-controls='collapse-@(@id)'>
+            @emoji @Model.Name
+        </button>
+    </h2>
+    <div id='collapse-@(@id)' class='accordion-collapse collapse' aria-labelledby='heading-@(@id)'>
+        <div class='accordion-body'>
+            <h4 class="margin-bottom-20">@Model.FullName</h4>
+            @{
+                await IncludeAsync("UrlTemplate.cshtml", Model.Request);
+                await IncludeAsync("HeadersDiffTemplate", Model.Request);
+                await IncludeAsync("BodyDiffTemplate", Model.Request);
+                await IncludeAsync("EventsTemplate", Model.Events);
+            }
+        </div>
+    </div>
+</div>

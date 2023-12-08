@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0",
+		"name": "Empty collection - original",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	},
+	"item": [],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"console.log(\"original\");",
+					"console.log(\"unchanged\");",
+					"console.log(\"removed\");"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		},
+		{
+			"key": "variable_which_will_be_removed",
+			"value": "removed variable",
+			"type": "string"
+		},
+		{
+			"key": "variable_which_will_be_changed",
+			"value": "original value",
+			"type": "string"
+		}
+	]
+}

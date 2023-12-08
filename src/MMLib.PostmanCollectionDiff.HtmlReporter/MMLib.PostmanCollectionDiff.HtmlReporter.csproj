@@ -3,4 +3,38 @@
     <Description>Tool to generate html report for Postman collection diff.</Description>
     <PackageTags>tool;diff;postman;report;html</PackageTags>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="BodyDiffTemplate.cshtml" />
+    <None Remove="CodeDiffTemplate.cshtml" />
+    <None Remove="CollectionInfoTemplate.cshtml" />
+    <None Remove="EventsTemplate.cshtml" />
+    <None Remove="HeadersDiffTemplate.cshtml" />
+    <None Remove="HeadersTemplate.cshtml" />
+    <None Remove="LinesTemplate.cshtml" />
+    <None Remove="RequestDetail.cshtml" />
+    <None Remove="UrlTemplate.cshtml" />
+    <None Remove="VariablesTemplate.cshtml" />
+    <None Remove="View.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RazorLight" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMLib.PostmanCollectionDiff\MMLib.PostmanCollectionDiff.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CollectionInfoTemplate.cshtml" />
+    <EmbeddedResource Include="EventsTemplate.cshtml" />
+    <EmbeddedResource Include="CodeDiffTemplate.cshtml" />
+    <EmbeddedResource Include="VariablesTemplate.cshtml" />
+    <EmbeddedResource Include="LinesTemplate.cshtml" />
+    <EmbeddedResource Include="HeadersDiffTemplate.cshtml" />
+    <EmbeddedResource Include="RequestDetail.cshtml" />
+    <EmbeddedResource Include="HeadersTemplate.cshtml" />
+    <EmbeddedResource Include="BodyDiffTemplate.cshtml" />
+    <EmbeddedResource Include="UrlTemplate.cshtml" />
+    <EmbeddedResource Include="View.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

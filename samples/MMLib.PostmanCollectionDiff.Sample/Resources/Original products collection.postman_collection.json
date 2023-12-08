@@ -1,0 +1,358 @@
+{
+	"info": {
+		"_postman_id": "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0",
+		"name": "Original products collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	},
+	"item": [
+		{
+			"name": "products",
+			"item": [
+				{
+					"name": "{id}",
+					"item": [
+						{
+							"name": "Update Product full changed.",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Retrieving new reminder should return status code 200.\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"\r",
+											"    var reminders = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Retrieving new reminder should return correct subject.\", function () {\r",
+											"        pm.expect(reminders.subject).to.be.eql(\"Upomienka\")\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Retrieving new reminder should return correct body.\", function () {\r",
+											"        var bodyText = reminders.body.replace(/\\r?\\n/g, \"\\n\");\r",
+											"        pm.expect(bodyText).to.be.eql(\"Vážený zákazník,\\n\\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\\n\\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\\n\\nS pozdravom\");\r",
+											"    });\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const badRequestSchema = {\r",
+											"    \"required\": [\"status\", \"errors\", \"title\"]\r",
+											"};\r",
+											"\r",
+											"pm.environment.set(\"Temp.Create.BadRequestSchema\", badRequestSchema);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/problem+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"<uuid>\",\n  \"extraProps\": {\n    \"Excepteur48\": {},\n    \"amet_2\": {},\n    \"quis_5f\": {}\n  },\n  \"createdTimestamp\": \"<dateTime>\",\n  \"createdBy\": \"<string>\",\n  \"lastModifiedTimestamp\": \"<dateTime>\",\n  \"lastModifiedBy\": \"<string>\",\n  \"code\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"price\": \"<double>\",\n  \"purchasePrice\": \"<double>\",\n  \"pictureFileName\": \"<string>\",\n  \"productType\": \"<string>\",\n  \"productBrand\": \"<string>\",\n  \"availableStock\": \"<integer>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/:tenantId/products/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										":tenantId",
+										"products",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "tenantId",
+											"value": "<string>"
+										},
+										{
+											"key": "id",
+											"value": "<string>"
+										}
+									]
+								},
+								"description": "Endpoint for update Product."
+							},
+							"response": []
+						},
+						{
+							"name": "Request for delet",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Retrieving new reminder should return status code 200.\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"\r",
+											"    var reminders = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Retrieving new reminder should return correct subject.\", function () {\r",
+											"        pm.expect(reminders.subject).to.be.eql(\"Upomienka\")\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Retrieving new reminder should return correct body.\", function () {\r",
+											"        var bodyText = reminders.body.replace(/\\r?\\n/g, \"\\n\");\r",
+											"        pm.expect(bodyText).to.be.eql(\"Vážený zákazník,\\n\\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\\n\\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\\n\\nS pozdravom\");\r",
+											"    });\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const badRequestSchema = {\r",
+											"    \"required\": [\"status\", \"errors\", \"title\"]\r",
+											"};\r",
+											"\r",
+											"pm.environment.set(\"Temp.Create.BadRequestSchema\", badRequestSchema);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/problem+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"<uuid>\",\n  \"extraProps\": {\n    \"Excepteur48\": {},\n    \"amet_2\": {},\n    \"quis_5f\": {}\n  },\n  \"createdTimestamp\": \"<dateTime>\",\n  \"createdBy\": \"<string>\",\n  \"lastModifiedTimestamp\": \"<dateTime>\",\n  \"lastModifiedBy\": \"<string>\",\n  \"code\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"price\": \"<double>\",\n  \"purchasePrice\": \"<double>\",\n  \"pictureFileName\": \"<string>\",\n  \"productType\": \"<string>\",\n  \"productBrand\": \"<string>\",\n  \"availableStock\": \"<integer>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/:tenantId/products/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										":tenantId",
+										"products",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "tenantId",
+											"value": "<string>"
+										},
+										{
+											"key": "id",
+											"value": "<string>"
+										}
+									]
+								},
+								"description": "Endpoint for update Product."
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Empty folder with prerequest",
+					"item": [],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"const reminderHeaderSchema = {",
+									"    \"required\": [\"id\", \"bcc\", \"subject\", \"body\", \"daysOverdue\"],",
+									"    \"properties\": {",
+									"        \"id\": {\"type\": \"integer\"},",
+									"        \"bcc\": {\"type\": \"string\"},",
+									"        \"subject\": {\"type\": \"string\"},",
+									"        \"body\": {\"type\": \"string\"},",
+									"        \"daysOverdue\": {\"type\": \"integer\"}",
+									"    }",
+									"};",
+									"",
+									"const reminderFullSchema = {",
+									"    \"required\": [\"id\", \"bcc\", \"subject\", \"body\", \"daysOverdue\"],",
+									"    \"properties\": {",
+									"        \"id\": {\"type\": \"integer\"},",
+									"        \"bcc\": {\"type\": \"string\"},",
+									"        \"subject\": {\"type\": \"string\"},",
+									"        \"body\": {\"type\": \"string\"},",
+									"        \"daysOverdue\": {\"type\": \"integer\"}",
+									"    }",
+									"};",
+									"",
+									"pm.environment.set(\"Temp.Get.ReminderHeaderSchema\", reminderHeaderSchema);",
+									"pm.environment.set(\"Temp.Get.ReminderFullSchema\", reminderFullSchema);"
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Folder for delete",
+					"item": []
+				},
+				{
+					"name": "Empty folder",
+					"item": []
+				},
+				{
+					"name": "Get Products with changed test.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Retrieving new reminder should return status code 200.\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    var reminders = pm.response.json();\r",
+									"\r",
+									"    pm.test(\"Retrieving new reminder should return correct subject.\", function () {\r",
+									"        pm.expect(reminders.subject).to.be.eql(\"Upomienka\")\r",
+									"    });\r",
+									"\r",
+									"    pm.test(\"Retrieving new reminder should return correct body.\", function () {\r",
+									"        var bodyText = reminders.body.replace(/\\r?\\n/g, \"\\n\");\r",
+									"        pm.expect(bodyText).to.be.eql(\"Vážený zákazník,\\n\\npri kontrole našich dokladov sme zistili, že neevidujeme úhradu priloženej faktúry.\\n\\nAk ste faktúru už uhradili, prosím, informujte nás o termíne platby.\\n\\nS pozdravom\");\r",
+									"    });\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/api/:tenantId/products",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								":tenantId",
+								"products"
+							],
+							"variable": [
+								{
+									"key": "tenantId",
+									"value": "<string>"
+								}
+							]
+						},
+						"description": "OData endpoint for access to Products."
+					},
+					"response": []
+				},
+				{
+					"name": "Create new Product with added header.",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": \"<uuid>\",\n  \"extraProps\": {\n    \"Excepteur48\": {},\n    \"amet_2\": {},\n    \"quis_5f\": {}\n  },\n  \"createdTimestamp\": \"<dateTime>\",\n  \"createdBy\": \"<string>\",\n  \"lastModifiedTimestamp\": \"<dateTime>\",\n  \"lastModifiedBy\": \"<string>\",\n  \"code\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"price\": \"<double>\",\n  \"purchasePrice\": \"<double>\",\n  \"pictureFileName\": \"<string>\",\n  \"productType\": \"<string>\",\n  \"productBrand\": \"<string>\",\n  \"availableStock\": \"<integer>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/:tenantId/products",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								":tenantId",
+								"products"
+							],
+							"variable": [
+								{
+									"key": "tenantId",
+									"value": "<string>"
+								}
+							]
+						},
+						"description": "Endpoint for create new Product."
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Tool to generate console report for Postman collection diff.</Description>
+    <PackageTags>tool;diff;postman;report;console</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMLib.PostmanCollectionDiff\MMLib.PostmanCollectionDiff.csproj" />
+  </ItemGroup>
+</Project>

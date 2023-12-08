@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "bdbe7048-01f0-4d83-8b18-309aac95f8c9",
+		"name": "Events - original",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	},
+	"item": [
+		{
+			"name": "Request without change",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Retrieving list of bank accounts should return status code 200.\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.json\r",
+							"\r",
+							"    var bankAccounts = pm.response.json();\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should return an array but not an object.\", function () {\r",
+							"        pm.expect(bankAccounts).to.be.an('array').but.not.an('object');\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should have correct number of items.\", function () {\r",
+							"        pm.expect(bankAccounts.length).to.be.above(0);\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should return correct data format in each item.\", function () {\r",
+							"        bankAccounts.forEach(function(bankAccount) {\r",
+							"            pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.BankAccountHeaderSchema\"))).to.be.true;\r",
+							"        });\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should return seeded item.\", function () {\r",
+							"        var found = true;\r",
+							"        bankAccounts.forEach(function(bankAccount) {\r",
+							"            if (bankAccount.id == pm.environment.get(\"Temp.Get.AccountId\")) {\r",
+							"                found = true;\r",
+							"            }\r",
+							"        });\r",
+							"        pm.expect(found).to.be.true;\r",
+							"    });\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log(\"prerequest script\")"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Events will be added",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Events will be removed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Retrieving list of bank accounts should return status code 200.\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.be.json\r",
+							"\r",
+							"    var bankAccounts = pm.response.json();\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should return an array but not an object.\", function () {\r",
+							"        pm.expect(bankAccounts).to.be.an('array').but.not.an('object');\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should have correct number of items.\", function () {\r",
+							"        pm.expect(bankAccounts.length).to.be.above(0);\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should return correct data format in each item.\", function () {\r",
+							"        bankAccounts.forEach(function(bankAccount) {\r",
+							"            pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.BankAccountHeaderSchema\"))).to.be.true;\r",
+							"        });\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Retrieving list of bank accounts should return seeded item.\", function () {\r",
+							"        var found = true;\r",
+							"        bankAccounts.forEach(function(bankAccount) {\r",
+							"            if (bankAccount.id == pm.environment.get(\"Temp.Get.AccountId\")) {\r",
+							"                found = true;\r",
+							"            }\r",
+							"        });\r",
+							"        pm.expect(found).to.be.true;\r",
+							"    });\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log(\"Prerequest scripts\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Events with simple change",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log(\"First step\");\r",
+							"console.log(\"Second step\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Retrieving non existing bank account should return status code 404.\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Events with complex change",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Parsing IBAN should return status code 200.\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"    var bankAccount = pm.response.json();\r",
+							"\r",
+							"    pm.test(\"Parsing IBAN should return an object.\", function () {\r",
+							"        pm.expect(bankAccount).to.be.an('object');\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Parsing IBAN should return correct data format.\", function () {\r",
+							"        pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.IbanParsingResult\"))).to.be.true;\r",
+							"    });\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.test(\"Parsing IBAN should return status code 200.\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"    var bankAccount = pm.response.json();\r",
+							"\r",
+							"    pm.test(\"Parsing IBAN should return an object.\", function () {\r",
+							"        pm.expect(bankAccount).to.be.an('object');\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"Parsing IBAN should return correct data format.\", function () {\r",
+							"        pm.expect(tv4.validate(bankAccount, pm.environment.get(\"Temp.Get.IbanParsingResult\"))).to.be.true;\r",
+							"    });\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		}
+	]
+}

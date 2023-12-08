@@ -1,0 +1,5842 @@
+﻿{
+  OriginalName: Sample.Products,
+  UpdatedName: Sample.Products,
+  HasDifferences: true,
+  Info: {
+    HasDifferences: false
+  },
+  Variables: [
+    {
+      Key: baseUrl,
+      Value: {
+        Original: /,
+        Updated: /,
+        HasDifferences: false
+      },
+      HasDifferences: false
+    }
+  ],
+  Auth: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  ProtocolProfileBehavior: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  UnchangedItemCount: 10,
+  Items: [
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Get Product by id - name changed.,
+      FullName: /api/framework/products/By ID/(GET) Get Product by id - name changed.,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id?use-tracking=false,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id?use-tracking=false,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw:
+{
+                                                    "type": "bearer",
+                                                    "bearer": [
+                                                        {
+                                                            "key": "token",
+                                                            "value": "{{beartoken}}",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: Endpoint for access to Product.
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Accept,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          },
+          {
+            Key: postman-test,
+            Value: {
+              Original: version1,
+              Updated: version1,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: Only for testing
+            }
+          }
+        ]
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Inserted,
+                      Position: 1,
+                      Text: pm.environment.set("Temp.Get.Id", 22);
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: pm.environment.set("Temp.Get.Id", 22);,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Update Product.,
+      FullName: /api/framework/products/By ID/(PATCH) Update Product.,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: PATCH,
+          Updated: PATCH,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for update Products.
+                }
+              ],
+              HasDifferences: false
+            },
+            NewText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for update Products.
+                }
+              ],
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: Endpoint for update Products.,
+          RawOriginal: Endpoint for update Products.
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "operations": [
+                  },
+                  {
+                    Position: 3,
+                    Text:     {
+                  },
+                  {
+                    Type: Modified,
+                    Position: 4,
+                    Text:       "path": "<string>",,
+                    SubPieces: [
+                      {
+                        Position: 1,
+                        Text:       
+                      },
+                      {
+                        Position: 2,
+                        Text: "path":
+                      },
+                      {
+                        Position: 3,
+                        Text:  
+                      },
+                      {
+                        Type: Deleted,
+                        Position: 4,
+                        Text: "<string>"
+                      },
+                      {
+                        Type: Imaginary
+                      },
+                      {
+                        Type: Imaginary
+                      },
+                      {
+                        Position: 5,
+                        Text: ,
+                      }
+                    ]
+                  },
+                  {
+                    Position: 5,
+                    Text:       "op": "<string>",
+                  },
+                  {
+                    Position: 6,
+                    Text:       "from": "<string>",
+                  },
+                  {
+                    Position: 7,
+                    Text:       "value": {
+                  },
+                  {
+                    Position: 8,
+                    Text:         "nullable": true
+                  },
+                  {
+                    Position: 9,
+                    Text:       }
+                  },
+                  {
+                    Position: 10,
+                    Text:     },
+                  },
+                  {
+                    Position: 11,
+                    Text:     {
+                  },
+                  {
+                    Position: 12,
+                    Text:       "path": "<string>",
+                  },
+                  {
+                    Position: 13,
+                    Text:       "op": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:       "from": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:       "value": {
+                  },
+                  {
+                    Position: 16,
+                    Text:         "nullable": true
+                  },
+                  {
+                    Position: 17,
+                    Text:       }
+                  },
+                  {
+                    Position: 18,
+                    Text:     }
+                  },
+                  {
+                    Position: 19,
+                    Text:   ]
+                  },
+                  {
+                    Position: 20,
+                    Text: }
+                  }
+                ],
+                HasDifferences: true
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "operations": [
+                  },
+                  {
+                    Position: 3,
+                    Text:     {
+                  },
+                  {
+                    Type: Modified,
+                    Position: 4,
+                    Text:       "path": "new value",,
+                    SubPieces: [
+                      {
+                        Position: 1,
+                        Text:       
+                      },
+                      {
+                        Position: 2,
+                        Text: "path":
+                      },
+                      {
+                        Position: 3,
+                        Text:  
+                      },
+                      {
+                        Type: Inserted,
+                        Position: 4,
+                        Text: "new
+                      },
+                      {
+                        Type: Inserted,
+                        Position: 5,
+                        Text:  
+                      },
+                      {
+                        Type: Inserted,
+                        Position: 6,
+                        Text: value"
+                      },
+                      {
+                        Position: 7,
+                        Text: ,
+                      }
+                    ]
+                  },
+                  {
+                    Position: 5,
+                    Text:       "op": "<string>",
+                  },
+                  {
+                    Position: 6,
+                    Text:       "from": "<string>",
+                  },
+                  {
+                    Position: 7,
+                    Text:       "value": {
+                  },
+                  {
+                    Position: 8,
+                    Text:         "nullable": true
+                  },
+                  {
+                    Position: 9,
+                    Text:       }
+                  },
+                  {
+                    Position: 10,
+                    Text:     },
+                  },
+                  {
+                    Position: 11,
+                    Text:     {
+                  },
+                  {
+                    Position: 12,
+                    Text:       "path": "<string>",
+                  },
+                  {
+                    Position: 13,
+                    Text:       "op": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:       "from": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:       "value": {
+                  },
+                  {
+                    Position: 16,
+                    Text:         "nullable": true
+                  },
+                  {
+                    Position: 17,
+                    Text:       }
+                  },
+                  {
+                    Position: 18,
+                    Text:     }
+                  },
+                  {
+                    Position: 19,
+                    Text:   ]
+                  },
+                  {
+                    Position: 20,
+                    Text: }
+                  }
+                ],
+                HasDifferences: true
+              }
+            },
+            HasDifferences: true,
+            Raw:
+{
+  "operations": [
+    {
+      "path": "new value",
+      "op": "<string>",
+      "from": "<string>",
+      "value": {
+        "nullable": true
+      }
+    },
+    {
+      "path": "<string>",
+      "op": "<string>",
+      "from": "<string>",
+      "value": {
+        "nullable": true
+      }
+    }
+  ]
+},
+            RawOriginal:
+{
+  "operations": [
+    {
+      "path": "<string>",
+      "op": "<string>",
+      "from": "<string>",
+      "value": {
+        "nullable": true
+      }
+    },
+    {
+      "path": "<string>",
+      "op": "<string>",
+      "from": "<string>",
+      "value": {
+        "nullable": true
+      }
+    }
+  ]
+}
+          },
+          Urlencoded: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Formdata: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          File: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Options: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:                                                         "raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text:                                                             "headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text:                                                             "language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text:                                                         }
+                  },
+                  {
+                    Position: 6,
+                    Text:                                                     }
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:                                                         "raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text:                                                             "headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text:                                                             "language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text:                                                         }
+                  },
+                  {
+                    Position: 6,
+                    Text:                                                     }
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+                                                        "raw": {
+                                                            "headerFamily": "json",
+                                                            "language": "json"
+                                                        }
+                                                    },
+            RawOriginal:
+{
+                                                        "raw": {
+                                                            "headerFamily": "json",
+                                                            "language": "json"
+                                                        }
+                                                    }
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: true
+        },
+        Headers: [
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          {
+            Key: Accept,
+            Value: {
+              Original: application/problem+json,
+              Updated: application/problem+json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Update Product.,
+      FullName: /api/framework/products/By ID/(PUT) Update Product.,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id?new-param=true,
+          HasDifferences: true
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: PUT,
+          Updated: PUT,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for update Product.
+                }
+              ],
+              HasDifferences: false
+            },
+            NewText: {
+              Lines: [
+                {
+                  Position: 1,
+                  Text: Endpoint for update Product.
+                }
+              ],
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: Endpoint for update Product.,
+          RawOriginal: Endpoint for update Product.
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Position: 3,
+                    Text:   "extraProps": {
+                  },
+                  {
+                    Position: 4,
+                    Text:     "elit_4ea": {},
+                  },
+                  {
+                    Position: 5,
+                    Text:     "reprehenderit_fbe": {},
+                  },
+                  {
+                    Position: 6,
+                    Text:     "culpa1": {}
+                  },
+                  {
+                    Position: 7,
+                    Text:   },
+                  },
+                  {
+                    Position: 8,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 9,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Position: 10,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 11,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Position: 12,
+                    Text:   "code": "<string>",
+                  },
+                  {
+                    Position: 13,
+                    Text:   "name": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Position: 16,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Position: 17,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Position: 18,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Position: 19,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Position: 20,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Position: 21,
+                    Text: }
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Position: 3,
+                    Text:   "extraProps": {
+                  },
+                  {
+                    Position: 4,
+                    Text:     "elit_4ea": {},
+                  },
+                  {
+                    Position: 5,
+                    Text:     "reprehenderit_fbe": {},
+                  },
+                  {
+                    Position: 6,
+                    Text:     "culpa1": {}
+                  },
+                  {
+                    Position: 7,
+                    Text:   },
+                  },
+                  {
+                    Position: 8,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 9,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Position: 10,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Position: 11,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Position: 12,
+                    Text:   "code": "<string>",
+                  },
+                  {
+                    Position: 13,
+                    Text:   "name": "<string>",
+                  },
+                  {
+                    Position: 14,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Position: 15,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Position: 16,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Position: 17,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Position: 18,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Position: 19,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Position: 20,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Position: 21,
+                    Text: }
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "elit_4ea": {},
+    "reprehenderit_fbe": {},
+    "culpa1": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+},
+            RawOriginal:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "elit_4ea": {},
+    "reprehenderit_fbe": {},
+    "culpa1": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+}
+          },
+          Urlencoded: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Formdata: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          File: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Options: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:                                                         "raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text:                                                             "headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text:                                                             "language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text:                                                         }
+                  },
+                  {
+                    Position: 6,
+                    Text:                                                     }
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text:                                                         "raw": {
+                  },
+                  {
+                    Position: 3,
+                    Text:                                                             "headerFamily": "json",
+                  },
+                  {
+                    Position: 4,
+                    Text:                                                             "language": "json"
+                  },
+                  {
+                    Position: 5,
+                    Text:                                                         }
+                  },
+                  {
+                    Position: 6,
+                    Text:                                                     }
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+                                                        "raw": {
+                                                            "headerFamily": "json",
+                                                            "language": "json"
+                                                        }
+                                                    },
+            RawOriginal:
+{
+                                                        "raw": {
+                                                            "headerFamily": "json",
+                                                            "language": "json"
+                                                        }
+                                                    }
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          {
+            Key: Accept,
+            Value: {
+              Original: application/problem+json,
+              Updated: application/problem+json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [],
+      IsFolder: false
+    },
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Another empty folder - renamed,
+      FullName: /api/framework/products/Another empty folder - renamed,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [],
+      IsFolder: true
+    },
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Create another new Product,
+      FullName: /api/framework/products/(POST) Create another new Product,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products,
+          Updated: {{baseUrl}}/api/:tenantId/products,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: POST,
+          Updated: POST,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: Endpoint for create new Product.
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  },
+                  {
+                    Type: Imaginary
+                  }
+                ],
+                HasDifferences: true
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Type: Inserted,
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 2,
+                    Text:   "id": "<uuid>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 3,
+                    Text:   "extraProps": {
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 4,
+                    Text:     "elit_4ea": {},
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 5,
+                    Text:     "reprehenderit_fbe": {},
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 6,
+                    Text:     "culpa1": {}
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 7,
+                    Text:   },
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 8,
+                    Text:   "createdTimestamp": "<dateTime>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 9,
+                    Text:   "createdBy": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 10,
+                    Text:   "lastModifiedTimestamp": "<dateTime>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 11,
+                    Text:   "lastModifiedBy": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 12,
+                    Text:   "code": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 13,
+                    Text:   "name": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 14,
+                    Text:   "description": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 15,
+                    Text:   "price": "<double>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 16,
+                    Text:   "purchasePrice": "<double>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 17,
+                    Text:   "pictureFileName": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 18,
+                    Text:   "productType": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 19,
+                    Text:   "productBrand": "<string>",
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 20,
+                    Text:   "availableStock": "<integer>"
+                  },
+                  {
+                    Type: Inserted,
+                    Position: 21,
+                    Text: }
+                  }
+                ],
+                HasDifferences: true
+              }
+            },
+            HasDifferences: true,
+            Raw:
+{
+  "id": "<uuid>",
+  "extraProps": {
+    "elit_4ea": {},
+    "reprehenderit_fbe": {},
+    "culpa1": {}
+  },
+  "createdTimestamp": "<dateTime>",
+  "createdBy": "<string>",
+  "lastModifiedTimestamp": "<dateTime>",
+  "lastModifiedBy": "<string>",
+  "code": "<string>",
+  "name": "<string>",
+  "description": "<string>",
+  "price": "<double>",
+  "purchasePrice": "<double>",
+  "pictureFileName": "<string>",
+  "productType": "<string>",
+  "productBrand": "<string>",
+  "availableStock": "<integer>"
+},
+            RawOriginal: 
+          },
+          Urlencoded: {
+            HasDifferences: false,
+            Raw: 
+          },
+          Formdata: {
+            HasDifferences: false,
+            Raw: 
+          },
+          File: {
+            HasDifferences: false,
+            Raw: 
+          },
+          Options: {
+            HasDifferences: false,
+            Raw:
+{
+                                                "raw": {
+                                                    "headerFamily": "json",
+                                                    "language": "json"
+                                                }
+                                            }
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: true
+        },
+        Headers: [
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          },
+          {
+            Key: Accept,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: framework,
+      FullName: /api/framework,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: {
+              },
+              {
+                Position: 2,
+                Text:                         "type": "bearer",
+              },
+              {
+                Position: 3,
+                Text:                         "bearer": [
+              },
+              {
+                Position: 4,
+                Text:                             {
+              },
+              {
+                Position: 5,
+                Text:                                 "key": "token",
+              },
+              {
+                Position: 6,
+                Text:                                 "value": "{{bearerToken}}",
+              },
+              {
+                Position: 7,
+                Text:                                 "type": "string"
+              },
+              {
+                Position: 8,
+                Text:                             }
+              },
+              {
+                Position: 9,
+                Text:                         ]
+              },
+              {
+                Position: 10,
+                Text:                     }
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: {
+              },
+              {
+                Position: 2,
+                Text:                         "type": "bearer",
+              },
+              {
+                Position: 3,
+                Text:                         "bearer": [
+              },
+              {
+                Position: 4,
+                Text:                             {
+              },
+              {
+                Position: 5,
+                Text:                                 "key": "token",
+              },
+              {
+                Position: 6,
+                Text:                                 "value": "{{bearerToken}}",
+              },
+              {
+                Position: 7,
+                Text:                                 "type": "string"
+              },
+              {
+                Position: 8,
+                Text:                             }
+              },
+              {
+                Position: 9,
+                Text:                         ]
+              },
+              {
+                Position: 10,
+                Text:                     }
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw:
+{
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{bearerToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+        RawOriginal:
+{
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{bearerToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    }
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: false,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: false
+        },
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: pm.test("Empty test", function () {    ,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: test
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "Empty
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 7,
+                          Text: test"
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Type: Imaginary
+                        },
+                        {
+                          Position: 8,
+                          Text: , 
+                        },
+                        {
+                          Position: 9,
+                          Text: function
+                        },
+                        {
+                          Position: 10,
+                          Text:  () {    
+                        }
+                      ]
+                    },
+                    {
+                      Position: 2,
+                      Text: });
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Modified,
+                      Position: 1,
+                      Text: pm.test("Empty test - changes", function () {    ,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text: pm
+                        },
+                        {
+                          Position: 2,
+                          Text: .
+                        },
+                        {
+                          Position: 3,
+                          Text: test
+                        },
+                        {
+                          Position: 4,
+                          Text: (
+                        },
+                        {
+                          Position: 5,
+                          Text: "Empty
+                        },
+                        {
+                          Position: 6,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 7,
+                          Text: test
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 8,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 9,
+                          Text: -
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 10,
+                          Text:  
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 11,
+                          Text: changes"
+                        },
+                        {
+                          Position: 12,
+                          Text: , 
+                        },
+                        {
+                          Position: 13,
+                          Text: function
+                        },
+                        {
+                          Position: 14,
+                          Text:  () {    
+                        }
+                      ]
+                    },
+                    {
+                      Position: 2,
+                      Text: });
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Empty test - changes", function () {    
+});
+,
+              RawOriginal:
+pm.test("Empty test", function () {    
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: true
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: New bank account,
+      FullName: /BankAccount/Get/Seed/(POST) New bank account,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts,
+          Updated: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: POST,
+          Updated: POST,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            Original: raw,
+            Updated: raw,
+            HasDifferences: false
+          },
+          Raw: {
+            Diff: {
+              OldText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text: 	"Name": "PostmanTest_New account",
+                  },
+                  {
+                    Position: 3,
+                    Text: 	"IBAN": "SK2811000000002628740740"
+                  },
+                  {
+                    Position: 4,
+                    Text: }
+                  }
+                ],
+                HasDifferences: false
+              },
+              NewText: {
+                Lines: [
+                  {
+                    Position: 1,
+                    Text: {
+                  },
+                  {
+                    Position: 2,
+                    Text: 	"Name": "PostmanTest_New account",
+                  },
+                  {
+                    Position: 3,
+                    Text: 	"IBAN": "SK2811000000002628740740"
+                  },
+                  {
+                    Position: 4,
+                    Text: }
+                  }
+                ],
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw:
+{
+	"Name": "PostmanTest_New account",
+	"IBAN": "SK2811000000002628740740"
+},
+            RawOriginal:
+{
+	"Name": "PostmanTest_New account",
+	"IBAN": "SK2811000000002628740740"
+}
+          },
+          Urlencoded: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Formdata: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          File: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Options: {
+            Diff: {
+              OldText: {
+                HasDifferences: false
+              },
+              NewText: {
+                HasDifferences: false
+              }
+            },
+            HasDifferences: false,
+            Raw: ,
+            RawOriginal: 
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Content-Type,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Creating bank account should return 201.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(201);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var jsonData = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text:     pm.environment.set("Temp.Get.AccountId", jsonData.id);
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 6,
+                      Text: });
+                    },
+                    {
+                      Position: 7,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Creating bank account should return 201.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(201);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var jsonData = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text:     pm.environment.set("Temp.Get.AccountId", jsonData.id);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 6,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 7,
+                      Text:     console.log("change")
+                    },
+                    {
+                      Position: 8,
+                      Text: });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Creating bank account should return 201.", function () {
+    pm.response.to.have.status(201);
+
+    var jsonData = pm.response.json();
+    pm.environment.set("Temp.Get.AccountId", jsonData.id);
+
+    console.log("change")
+});
+,
+              RawOriginal:
+pm.test("Creating bank account should return 201.", function () {
+    pm.response.to.have.status(201);
+
+    var jsonData = pm.response.json();
+    pm.environment.set("Temp.Get.AccountId", jsonData.id);
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: All,
+      FullName: /BankAccount/Get/New folder/(GET) All,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts,
+          Updated: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Inserted,
+                      Position: 1,
+                      Text: pm.test("Retrieving list of bank accounts should return status code 200.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 3,
+                      Text:     pm.response.to.be.json
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 4,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 5,
+                      Text:     var bankAccounts = pm.response.json();
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 6,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 7,
+                      Text:     pm.test("Retrieving list of bank accounts should return an array but not an object.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 8,
+                      Text:         pm.expect(bankAccounts).to.be.an('array').but.not.an('object');
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 9,
+                      Text:     });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 10,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 11,
+                      Text:     pm.test("Retrieving list of bank accounts should have correct number of items.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 12,
+                      Text:         pm.expect(bankAccounts.length).to.be.above(0);
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 13,
+                      Text:     });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 14,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 15,
+                      Text:     pm.test("Retrieving list of bank accounts should return correct data format in each item.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 16,
+                      Text:         bankAccounts.forEach(function(bankAccount) {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 17,
+                      Text:             pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.BankAccountHeaderSchema"))).to.be.true;
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 18,
+                      Text:         });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 19,
+                      Text:     });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 20,
+                      Text: 
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 21,
+                      Text:     pm.test("Retrieving list of bank accounts should return seeded item.", function () {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 22,
+                      Text:         var found = true;
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 23,
+                      Text:         bankAccounts.forEach(function(bankAccount) {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 24,
+                      Text:             if (bankAccount.id == pm.environment.get("Temp.Get.AccountId")) {
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 25,
+                      Text:                 found = true;
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 26,
+                      Text:             }
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 27,
+                      Text:         });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 28,
+                      Text:         pm.expect(found).to.be.true;
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 29,
+                      Text:     });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 30,
+                      Text: });
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 31,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Retrieving list of bank accounts should return status code 200.", function () {
+    pm.response.to.have.status(200);
+    pm.response.to.be.json
+
+    var bankAccounts = pm.response.json();
+
+    pm.test("Retrieving list of bank accounts should return an array but not an object.", function () {
+        pm.expect(bankAccounts).to.be.an('array').but.not.an('object');
+    });
+
+    pm.test("Retrieving list of bank accounts should have correct number of items.", function () {
+        pm.expect(bankAccounts.length).to.be.above(0);
+    });
+
+    pm.test("Retrieving list of bank accounts should return correct data format in each item.", function () {
+        bankAccounts.forEach(function(bankAccount) {
+            pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.BankAccountHeaderSchema"))).to.be.true;
+        });
+    });
+
+    pm.test("Retrieving list of bank accounts should return seeded item.", function () {
+        var found = true;
+        bankAccounts.forEach(function(bankAccount) {
+            if (bankAccount.id == pm.environment.get("Temp.Get.AccountId")) {
+                found = true;
+            }
+        });
+        pm.expect(found).to.be.true;
+    });
+});
+,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Inserted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: New folder,
+      FullName: /BankAccount/Get/New folder,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [],
+      IsFolder: true
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Parse IBAN,
+      FullName: /BankAccount/Get/(GET) Parse IBAN,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{ApiGatewayBaseUrl}}/bankaccounts/IBANs/SK0202000000002290789159,
+          Updated: {{ApiGatewayBaseUrl}}/bankaccounts/IBANs/SK0202000000002290789159,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var bankAccount = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Position: 6,
+                      Text:     pm.test("Parsing IBAN should return an object.", function () {
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(bankAccount).to.be.an('object');
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Position: 10,
+                      Text:     pm.test("Parsing IBAN should return correct data format.", function () {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 11,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:         
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: expect
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Position: 6,
+                          Text: tv4
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: validate
+                        },
+                        {
+                          Position: 9,
+                          Text: (
+                        },
+                        {
+                          Position: 10,
+                          Text: bankAccount
+                        },
+                        {
+                          Position: 11,
+                          Text: , 
+                        },
+                        {
+                          Position: 12,
+                          Text: pm
+                        },
+                        {
+                          Position: 13,
+                          Text: .
+                        },
+                        {
+                          Position: 14,
+                          Text: environment
+                        },
+                        {
+                          Position: 15,
+                          Text: .
+                        },
+                        {
+                          Position: 16,
+                          Text: get
+                        },
+                        {
+                          Position: 17,
+                          Text: (
+                        },
+                        {
+                          Position: 18,
+                          Text: "Temp
+                        },
+                        {
+                          Position: 19,
+                          Text: .
+                        },
+                        {
+                          Position: 20,
+                          Text: Get
+                        },
+                        {
+                          Position: 21,
+                          Text: .
+                        },
+                        {
+                          Position: 22,
+                          Text: IbanParsingResult"
+                        },
+                        {
+                          Position: 23,
+                          Text: ))).
+                        },
+                        {
+                          Position: 24,
+                          Text: to
+                        },
+                        {
+                          Position: 25,
+                          Text: .
+                        },
+                        {
+                          Position: 26,
+                          Text: be
+                        },
+                        {
+                          Position: 27,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 28,
+                          Text: true
+                        },
+                        {
+                          Position: 29,
+                          Text: ;
+                        }
+                      ]
+                    },
+                    {
+                      Position: 12,
+                      Text:     });
+                    },
+                    {
+                      Position: 13,
+                      Text: });
+                    },
+                    {
+                      Position: 14,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Position: 4,
+                      Text:     var bankAccount = pm.response.json();
+                    },
+                    {
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Position: 6,
+                      Text:     pm.test("Parsing IBAN should return an object.", function () {
+                    },
+                    {
+                      Position: 7,
+                      Text:         pm.expect(bankAccount).to.be.an('object');
+                    },
+                    {
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Position: 10,
+                      Text:     pm.test("Parsing IBAN should return correct data format.", function () {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 11,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.false;,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:         
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: expect
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Position: 6,
+                          Text: tv4
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: validate
+                        },
+                        {
+                          Position: 9,
+                          Text: (
+                        },
+                        {
+                          Position: 10,
+                          Text: bankAccount
+                        },
+                        {
+                          Position: 11,
+                          Text: , 
+                        },
+                        {
+                          Position: 12,
+                          Text: pm
+                        },
+                        {
+                          Position: 13,
+                          Text: .
+                        },
+                        {
+                          Position: 14,
+                          Text: environment
+                        },
+                        {
+                          Position: 15,
+                          Text: .
+                        },
+                        {
+                          Position: 16,
+                          Text: get
+                        },
+                        {
+                          Position: 17,
+                          Text: (
+                        },
+                        {
+                          Position: 18,
+                          Text: "Temp
+                        },
+                        {
+                          Position: 19,
+                          Text: .
+                        },
+                        {
+                          Position: 20,
+                          Text: Get
+                        },
+                        {
+                          Position: 21,
+                          Text: .
+                        },
+                        {
+                          Position: 22,
+                          Text: IbanParsingResult"
+                        },
+                        {
+                          Position: 23,
+                          Text: ))).
+                        },
+                        {
+                          Position: 24,
+                          Text: to
+                        },
+                        {
+                          Position: 25,
+                          Text: .
+                        },
+                        {
+                          Position: 26,
+                          Text: be
+                        },
+                        {
+                          Position: 27,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 28,
+                          Text: false
+                        },
+                        {
+                          Position: 29,
+                          Text: ;
+                        }
+                      ]
+                    },
+                    {
+                      Position: 12,
+                      Text:     });
+                    },
+                    {
+                      Position: 13,
+                      Text: });
+                    },
+                    {
+                      Position: 14,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var bankAccount = pm.response.json();
+
+    pm.test("Parsing IBAN should return an object.", function () {
+        pm.expect(bankAccount).to.be.an('object');
+    });
+
+    pm.test("Parsing IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.false;
+    });
+});
+,
+              RawOriginal:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var bankAccount = pm.response.json();
+
+    pm.test("Parsing IBAN should return an object.", function () {
+        pm.expect(bankAccount).to.be.an('object');
+    });
+
+    pm.test("Parsing IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Parse incorect IBAN,
+      FullName: /BankAccount/Get/(GET) Parse incorect IBAN,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Type: Imaginary
+              },
+              {
+                Type: Imaginary
+              },
+              {
+                Type: Imaginary
+              },
+              {
+                Type: Imaginary
+              },
+              {
+                Type: Imaginary
+              }
+            ],
+            HasDifferences: true
+          },
+          NewText: {
+            Lines: [
+              {
+                Type: Inserted,
+                Position: 1,
+                Text: {
+              },
+              {
+                Type: Inserted,
+                Position: 2,
+                Text:                                 "disabledSystemHeaders": {
+              },
+              {
+                Type: Inserted,
+                Position: 3,
+                Text:                                     "accept": true
+              },
+              {
+                Type: Inserted,
+                Position: 4,
+                Text:                                 }
+              },
+              {
+                Type: Inserted,
+                Position: 5,
+                Text:                             }
+              }
+            ],
+            HasDifferences: true
+          }
+        },
+        HasDifferences: true,
+        Raw:
+{
+                                "disabledSystemHeaders": {
+                                    "accept": true
+                                }
+                            },
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{ApiGatewayBaseUrl}}/bankaccounts/IBANs/SK0202000000002290789156,
+          Updated: {{ApiGatewayBaseUrl}}/bankaccounts/IBANs/SK0202000000002290789156,
+          HasDifferences: false
+        },
+        Auth: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Proxy: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Certificate: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          Diff: {
+            OldText: {
+              HasDifferences: false
+            },
+            NewText: {
+              HasDifferences: false
+            }
+          },
+          HasDifferences: false,
+          Raw: ,
+          RawOriginal: 
+        },
+        HasDifferences: true,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: new-header,
+            Value: {
+              Updated: value for new value,
+              HasDifferences: false
+            },
+            HasDifferences: true,
+            ChangeType: Inserted,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        Diff: {
+          OldText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          },
+          NewText: {
+            Lines: [
+              {
+                Position: 1,
+                Text: []
+              }
+            ],
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: [],
+        RawOriginal: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text:     var bankAccount = pm.response.json();
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 6,
+                      Text:     pm.test("Parsing IBAN should return an object.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 7,
+                      Text:         pm.expect(bankAccount).to.be.an('object');
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 8,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 9,
+                      Text: 
+                    },
+                    {
+                      Position: 10,
+                      Text:     pm.test("Parsing IBAN should return correct data format.", function () {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 11,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:         
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: expect
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Position: 6,
+                          Text: tv4
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: validate
+                        },
+                        {
+                          Position: 9,
+                          Text: (
+                        },
+                        {
+                          Position: 10,
+                          Text: bankAccount
+                        },
+                        {
+                          Position: 11,
+                          Text: , 
+                        },
+                        {
+                          Position: 12,
+                          Text: pm
+                        },
+                        {
+                          Position: 13,
+                          Text: .
+                        },
+                        {
+                          Position: 14,
+                          Text: environment
+                        },
+                        {
+                          Position: 15,
+                          Text: .
+                        },
+                        {
+                          Position: 16,
+                          Text: get
+                        },
+                        {
+                          Position: 17,
+                          Text: (
+                        },
+                        {
+                          Position: 18,
+                          Text: "Temp
+                        },
+                        {
+                          Position: 19,
+                          Text: .
+                        },
+                        {
+                          Position: 20,
+                          Text: Get
+                        },
+                        {
+                          Position: 21,
+                          Text: .
+                        },
+                        {
+                          Position: 22,
+                          Text: IbanParsingResult"
+                        },
+                        {
+                          Position: 23,
+                          Text: ))).
+                        },
+                        {
+                          Position: 24,
+                          Text: to
+                        },
+                        {
+                          Position: 25,
+                          Text: .
+                        },
+                        {
+                          Position: 26,
+                          Text: be
+                        },
+                        {
+                          Position: 27,
+                          Text: .
+                        },
+                        {
+                          Type: Deleted,
+                          Position: 28,
+                          Text: true
+                        },
+                        {
+                          Position: 29,
+                          Text: ;
+                        }
+                      ]
+                    },
+                    {
+                      Position: 12,
+                      Text:     });
+                    },
+                    {
+                      Position: 13,
+                      Text: });
+                    },
+                    {
+                      Position: 14,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: pm.test("Parsing IBAN should return status code 200.", function () {
+                    },
+                    {
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Position: 3,
+                      Text: 
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 4,
+                      Text:     pm.test("Parsing IBAN should return correct data format.", function () {
+                    },
+                    {
+                      Type: Modified,
+                      Position: 5,
+                      Text:         pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.false;,
+                      SubPieces: [
+                        {
+                          Position: 1,
+                          Text:         
+                        },
+                        {
+                          Position: 2,
+                          Text: pm
+                        },
+                        {
+                          Position: 3,
+                          Text: .
+                        },
+                        {
+                          Position: 4,
+                          Text: expect
+                        },
+                        {
+                          Position: 5,
+                          Text: (
+                        },
+                        {
+                          Position: 6,
+                          Text: tv4
+                        },
+                        {
+                          Position: 7,
+                          Text: .
+                        },
+                        {
+                          Position: 8,
+                          Text: validate
+                        },
+                        {
+                          Position: 9,
+                          Text: (
+                        },
+                        {
+                          Position: 10,
+                          Text: bankAccount
+                        },
+                        {
+                          Position: 11,
+                          Text: , 
+                        },
+                        {
+                          Position: 12,
+                          Text: pm
+                        },
+                        {
+                          Position: 13,
+                          Text: .
+                        },
+                        {
+                          Position: 14,
+                          Text: environment
+                        },
+                        {
+                          Position: 15,
+                          Text: .
+                        },
+                        {
+                          Position: 16,
+                          Text: get
+                        },
+                        {
+                          Position: 17,
+                          Text: (
+                        },
+                        {
+                          Position: 18,
+                          Text: "Temp
+                        },
+                        {
+                          Position: 19,
+                          Text: .
+                        },
+                        {
+                          Position: 20,
+                          Text: Get
+                        },
+                        {
+                          Position: 21,
+                          Text: .
+                        },
+                        {
+                          Position: 22,
+                          Text: IbanParsingResult"
+                        },
+                        {
+                          Position: 23,
+                          Text: ))).
+                        },
+                        {
+                          Position: 24,
+                          Text: to
+                        },
+                        {
+                          Position: 25,
+                          Text: .
+                        },
+                        {
+                          Position: 26,
+                          Text: be
+                        },
+                        {
+                          Position: 27,
+                          Text: .
+                        },
+                        {
+                          Type: Inserted,
+                          Position: 28,
+                          Text: false
+                        },
+                        {
+                          Position: 29,
+                          Text: ;
+                        }
+                      ]
+                    },
+                    {
+                      Position: 6,
+                      Text:     });
+                    },
+                    {
+                      Position: 7,
+                      Text: });
+                    },
+                    {
+                      Position: 8,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    pm.test("Parsing IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.false;
+    });
+});
+,
+              RawOriginal:
+pm.test("Parsing IBAN should return status code 200.", function () {
+    pm.response.to.have.status(200);
+
+    var bankAccount = pm.response.json();
+
+    pm.test("Parsing IBAN should return an object.", function () {
+        pm.expect(bankAccount).to.be.an('object');
+    });
+
+    pm.test("Parsing IBAN should return correct data format.", function () {
+        pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.IbanParsingResult"))).to.be.true;
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Modified,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Get,
+      FullName: /BankAccount/Get,
+      Description: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Auth: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      ProtocolProfileBehavior: {
+        Diff: {
+          OldText: {
+            HasDifferences: false
+          },
+          NewText: {
+            HasDifferences: false
+          }
+        },
+        HasDifferences: false,
+        Raw: ,
+        RawOriginal: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: const bankAccountHeaderSchema = {
+                    },
+                    {
+                      Position: 2,
+                      Text:     "required": ["id", "name", "iban", "swift", "bankCode", "bankName"],
+                    },
+                    {
+                      Position: 3,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 4,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Position: 5,
+                      Text:         "name": {"type": "string"},
+                    },
+                    {
+                      Position: 6,
+                      Text:         "iban": {"type": "string"},
+                    },
+                    {
+                      Position: 7,
+                      Text:         "swift": {"type": "string"},
+                    },
+                    {
+                      Position: 8,
+                      Text:         "bankCode": {"type": "string"},
+                    },
+                    {
+                      Position: 9,
+                      Text:         "bankName": {"type": "string"}
+                    },
+                    {
+                      Position: 10,
+                      Text:     }
+                    },
+                    {
+                      Position: 11,
+                      Text: };
+                    },
+                    {
+                      Position: 12,
+                      Text: 
+                    },
+                    {
+                      Position: 13,
+                      Text: const bankAccountFullSchema = {
+                    },
+                    {
+                      Position: 14,
+                      Text:     "required": ["id", "name", "iban", "swift", "accountPrefix",
+                    },
+                    {
+                      Position: 15,
+                      Text:                  "accountNumber", "bankCode", "bankName"],
+                    },
+                    {
+                      Position: 16,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 17,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Position: 18,
+                      Text:         "name": {"type": "string"},
+                    },
+                    {
+                      Position: 19,
+                      Text:         "iban": {"type": "string"},
+                    },
+                    {
+                      Position: 20,
+                      Text:         "swift": {"type": "string"},
+                    },
+                    {
+                      Position: 21,
+                      Text:         "accountPrefix": {"type": "string"},
+                    },
+                    {
+                      Position: 22,
+                      Text:         "accountNumber": {"type": "string"},
+                    },
+                    {
+                      Position: 23,
+                      Text:         "bankCode": {"type": "string"},
+                    },
+                    {
+                      Position: 24,
+                      Text:         "bankName": {"type": "string"}
+                    },
+                    {
+                      Position: 25,
+                      Text:     }
+                    },
+                    {
+                      Position: 26,
+                      Text: };
+                    },
+                    {
+                      Position: 27,
+                      Text: 
+                    },
+                    {
+                      Position: 28,
+                      Text: const ibanParsingResult = {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 29,
+                      Text:     "required": ["isValid", "bankName", "bankCode", "swift"],
+                    },
+                    {
+                      Position: 30,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 31,
+                      Text:         "isValid": {"type": "boolean"},
+                    },
+                    {
+                      Position: 32,
+                      Text:         "swift": {"type": "string"},
+                    },
+                    {
+                      Position: 33,
+                      Text:         "bankCode": {"type": "string"},
+                    },
+                    {
+                      Position: 34,
+                      Text:         "bankName": {"type": "string"}
+                    },
+                    {
+                      Position: 35,
+                      Text:     }
+                    },
+                    {
+                      Position: 36,
+                      Text: };
+                    },
+                    {
+                      Position: 37,
+                      Text: 
+                    },
+                    {
+                      Position: 38,
+                      Text: pm.environment.set("Temp.Get.BankAccountHeaderSchema", bankAccountHeaderSchema);
+                    },
+                    {
+                      Position: 39,
+                      Text: pm.environment.set("Temp.Get.BankAccountFullSchema", bankAccountFullSchema);
+                    },
+                    {
+                      Position: 40,
+                      Text: pm.environment.set("Temp.Get.IbanParsingResult", ibanParsingResult);
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Position: 1,
+                      Text: const bankAccountHeaderSchema = {
+                    },
+                    {
+                      Position: 2,
+                      Text:     "required": ["id", "name", "iban", "swift", "bankCode", "bankName"],
+                    },
+                    {
+                      Position: 3,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 4,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Position: 5,
+                      Text:         "name": {"type": "string"},
+                    },
+                    {
+                      Position: 6,
+                      Text:         "iban": {"type": "string"},
+                    },
+                    {
+                      Position: 7,
+                      Text:         "swift": {"type": "string"},
+                    },
+                    {
+                      Position: 8,
+                      Text:         "bankCode": {"type": "string"},
+                    },
+                    {
+                      Position: 9,
+                      Text:         "bankName": {"type": "string"}
+                    },
+                    {
+                      Position: 10,
+                      Text:     }
+                    },
+                    {
+                      Position: 11,
+                      Text: };
+                    },
+                    {
+                      Position: 12,
+                      Text: 
+                    },
+                    {
+                      Position: 13,
+                      Text: const bankAccountFullSchema = {
+                    },
+                    {
+                      Position: 14,
+                      Text:     "required": ["id", "name", "iban", "swift", "accountPrefix",
+                    },
+                    {
+                      Position: 15,
+                      Text:                  "accountNumber", "bankCode", "bankName"],
+                    },
+                    {
+                      Position: 16,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 17,
+                      Text:         "id": {"type": "integer"},
+                    },
+                    {
+                      Position: 18,
+                      Text:         "name": {"type": "string"},
+                    },
+                    {
+                      Position: 19,
+                      Text:         "iban": {"type": "string"},
+                    },
+                    {
+                      Position: 20,
+                      Text:         "swift": {"type": "string"},
+                    },
+                    {
+                      Position: 21,
+                      Text:         "accountPrefix": {"type": "string"},
+                    },
+                    {
+                      Position: 22,
+                      Text:         "accountNumber": {"type": "string"},
+                    },
+                    {
+                      Position: 23,
+                      Text:         "bankCode": {"type": "string"},
+                    },
+                    {
+                      Position: 24,
+                      Text:         "bankName": {"type": "string"}
+                    },
+                    {
+                      Position: 25,
+                      Text:     }
+                    },
+                    {
+                      Position: 26,
+                      Text: };
+                    },
+                    {
+                      Position: 27,
+                      Text: 
+                    },
+                    {
+                      Position: 28,
+                      Text: const ibanParsingResult = {
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Position: 29,
+                      Text:     "properties": {
+                    },
+                    {
+                      Position: 30,
+                      Text:         "isValid": {"type": "boolean"},
+                    },
+                    {
+                      Position: 31,
+                      Text:         "swift": {"type": "string"},
+                    },
+                    {
+                      Position: 32,
+                      Text:         "bankCode": {"type": "string"},
+                    },
+                    {
+                      Position: 33,
+                      Text:         "bankName": {"type": "string"}
+                    },
+                    {
+                      Position: 34,
+                      Text:     }
+                    },
+                    {
+                      Position: 35,
+                      Text: };
+                    },
+                    {
+                      Position: 36,
+                      Text: 
+                    },
+                    {
+                      Position: 37,
+                      Text: pm.environment.set("Temp.Get.BankAccountHeaderSchema", bankAccountHeaderSchema);
+                    },
+                    {
+                      Position: 38,
+                      Text: pm.environment.set("Temp.Get.BankAccountFullSchema", bankAccountFullSchema);
+                    },
+                    {
+                      Position: 39,
+                      Text: pm.environment.set("Temp.Get.IbanParsingResult", ibanParsingResult);
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw:
+const bankAccountHeaderSchema = {
+    "required": ["id", "name", "iban", "swift", "bankCode", "bankName"],
+    "properties": {
+        "id": {"type": "integer"},
+        "name": {"type": "string"},
+        "iban": {"type": "string"},
+        "swift": {"type": "string"},
+        "bankCode": {"type": "string"},
+        "bankName": {"type": "string"}
+    }
+};
+
+const bankAccountFullSchema = {
+    "required": ["id", "name", "iban", "swift", "accountPrefix",
+                 "accountNumber", "bankCode", "bankName"],
+    "properties": {
+        "id": {"type": "integer"},
+        "name": {"type": "string"},
+        "iban": {"type": "string"},
+        "swift": {"type": "string"},
+        "accountPrefix": {"type": "string"},
+        "accountNumber": {"type": "string"},
+        "bankCode": {"type": "string"},
+        "bankName": {"type": "string"}
+    }
+};
+
+const ibanParsingResult = {
+    "properties": {
+        "isValid": {"type": "boolean"},
+        "swift": {"type": "string"},
+        "bankCode": {"type": "string"},
+        "bankName": {"type": "string"}
+    }
+};
+
+pm.environment.set("Temp.Get.BankAccountHeaderSchema", bankAccountHeaderSchema);
+pm.environment.set("Temp.Get.BankAccountFullSchema", bankAccountFullSchema);
+pm.environment.set("Temp.Get.IbanParsingResult", ibanParsingResult);,
+              RawOriginal:
+const bankAccountHeaderSchema = {
+    "required": ["id", "name", "iban", "swift", "bankCode", "bankName"],
+    "properties": {
+        "id": {"type": "integer"},
+        "name": {"type": "string"},
+        "iban": {"type": "string"},
+        "swift": {"type": "string"},
+        "bankCode": {"type": "string"},
+        "bankName": {"type": "string"}
+    }
+};
+
+const bankAccountFullSchema = {
+    "required": ["id", "name", "iban", "swift", "accountPrefix",
+                 "accountNumber", "bankCode", "bankName"],
+    "properties": {
+        "id": {"type": "integer"},
+        "name": {"type": "string"},
+        "iban": {"type": "string"},
+        "swift": {"type": "string"},
+        "accountPrefix": {"type": "string"},
+        "accountNumber": {"type": "string"},
+        "bankCode": {"type": "string"},
+        "bankName": {"type": "string"}
+    }
+};
+
+const ibanParsingResult = {
+    "required": ["isValid", "bankName", "bankCode", "swift"],
+    "properties": {
+        "isValid": {"type": "boolean"},
+        "swift": {"type": "string"},
+        "bankCode": {"type": "string"},
+        "bankName": {"type": "string"}
+    }
+};
+
+pm.environment.set("Temp.Get.BankAccountHeaderSchema", bankAccountHeaderSchema);
+pm.environment.set("Temp.Get.BankAccountFullSchema", bankAccountFullSchema);
+pm.environment.set("Temp.Get.IbanParsingResult", ibanParsingResult);
+            }
+          },
+          HasDifferences: true
+        },
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: false,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  HasDifferences: false
+                },
+                NewText: {
+                  HasDifferences: false
+                }
+              },
+              HasDifferences: false,
+              Raw: ,
+              RawOriginal: 
+            }
+          },
+          HasDifferences: false
+        }
+      ],
+      IsFolder: true
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Get Product by id.,
+      FullName: /api/framework/products/By ID/(GET) Get Product by id.,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products/:id?use-tracking=true,
+          Updated: {{baseUrl}}/api/:tenantId/products/:id?use-tracking=true,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw:
+{
+                                                    "type": "bearer",
+                                                    "bearer": [
+                                                        {
+                                                            "key": "token",
+                                                            "value": "{{beartoken}}",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: Endpoint for access to Product.
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Accept,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          },
+          {
+            Key: postman-test,
+            Value: {
+              Original: version1,
+              Updated: version1,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: Only for testing
+            }
+          }
+        ]
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: prerequest,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: pm.environment.set("Temp.Get.Id", 22);
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal: pm.environment.set("Temp.Get.Id", 22);
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Another empty folder,
+      FullName: /api/framework/products/Another empty folder,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false
+        },
+        Proxy: {
+          HasDifferences: false
+        },
+        Certificate: {
+          HasDifferences: false
+        },
+        Method: {
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false
+      },
+      Events: [],
+      IsFolder: true
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Get Products.,
+      FullName: /api/framework/products/(GET) Get Products.,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{baseUrl}}/api/:tenantId/products,
+          Updated: {{baseUrl}}/api/:tenantId/products,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: OData endpoint for access to Products.
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: [
+          {
+            Key: Accept,
+            Value: {
+              Original: application/json,
+              Updated: application/json,
+              HasDifferences: false
+            },
+            HasDifferences: false,
+            Disabled: {
+              Original: False,
+              Updated: False,
+              HasDifferences: false
+            },
+            Description: {
+              HasDifferences: false,
+              Raw: 
+            }
+          }
+        ]
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [],
+      IsFolder: false
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: All,
+      FullName: /BankAccount/Get/(GET) All,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts,
+          Updated: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: pm.test("Retrieving list of bank accounts should return status code 200.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(200);
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 3,
+                      Text:     pm.response.to.be.json
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text:     var bankAccounts = pm.response.json();
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 6,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 7,
+                      Text:     pm.test("Retrieving list of bank accounts should return an array but not an object.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 8,
+                      Text:         pm.expect(bankAccounts).to.be.an('array').but.not.an('object');
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 9,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 10,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 11,
+                      Text:     pm.test("Retrieving list of bank accounts should have correct number of items.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 12,
+                      Text:         pm.expect(bankAccounts.length).to.be.above(0);
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 13,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 14,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 15,
+                      Text:     pm.test("Retrieving list of bank accounts should return correct data format in each item.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 16,
+                      Text:         bankAccounts.forEach(function(bankAccount) {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 17,
+                      Text:             pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.BankAccountHeaderSchema"))).to.be.true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 18,
+                      Text:         });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 19,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 20,
+                      Text: 
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 21,
+                      Text:     pm.test("Retrieving list of bank accounts should return seeded item.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 22,
+                      Text:         var found = true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 23,
+                      Text:         bankAccounts.forEach(function(bankAccount) {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 24,
+                      Text:             if (bankAccount.id == pm.environment.get("Temp.Get.AccountId")) {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 25,
+                      Text:                 found = true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 26,
+                      Text:             }
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 27,
+                      Text:         });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 28,
+                      Text:         pm.expect(found).to.be.true;
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 29,
+                      Text:     });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 30,
+                      Text: });
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 31,
+                      Text: 
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal:
+pm.test("Retrieving list of bank accounts should return status code 200.", function () {
+    pm.response.to.have.status(200);
+    pm.response.to.be.json
+
+    var bankAccounts = pm.response.json();
+
+    pm.test("Retrieving list of bank accounts should return an array but not an object.", function () {
+        pm.expect(bankAccounts).to.be.an('array').but.not.an('object');
+    });
+
+    pm.test("Retrieving list of bank accounts should have correct number of items.", function () {
+        pm.expect(bankAccounts.length).to.be.above(0);
+    });
+
+    pm.test("Retrieving list of bank accounts should return correct data format in each item.", function () {
+        bankAccounts.forEach(function(bankAccount) {
+            pm.expect(tv4.validate(bankAccount, pm.environment.get("Temp.Get.BankAccountHeaderSchema"))).to.be.true;
+        });
+    });
+
+    pm.test("Retrieving list of bank accounts should return seeded item.", function () {
+        var found = true;
+        bankAccounts.forEach(function(bankAccount) {
+            if (bankAccount.id == pm.environment.get("Temp.Get.AccountId")) {
+                found = true;
+            }
+        });
+        pm.expect(found).to.be.true;
+    });
+});
+
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    },
+    {
+      ChangeType: Deleted,
+      Id: {
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      Name: Non existing,
+      FullName: /BankAccount/Get/(GET) Non existing,
+      Description: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Auth: {
+        HasDifferences: false,
+        Raw: 
+      },
+      ProtocolProfileBehavior: {
+        HasDifferences: false,
+        Raw: 
+      },
+      Variables: [],
+      Request: {
+        Url: {
+          Original: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts/0,
+          Updated: {{ApiGatewayBaseUrl}}/companies/{{Temp.BankAccounts.CompanyId}}/bankaccounts/0,
+          HasDifferences: false
+        },
+        Auth: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Proxy: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Certificate: {
+          HasDifferences: false,
+          Raw: 
+        },
+        Method: {
+          Original: GET,
+          Updated: GET,
+          HasDifferences: false
+        },
+        Description: {
+          HasDifferences: false,
+          Raw: 
+        },
+        HasDifferences: false,
+        Body: {
+          Mode: {
+            HasDifferences: false
+          },
+          Raw: {
+            HasDifferences: false
+          },
+          Urlencoded: {
+            HasDifferences: false
+          },
+          Formdata: {
+            HasDifferences: false
+          },
+          File: {
+            HasDifferences: false
+          },
+          Options: {
+            HasDifferences: false
+          },
+          Disabled: {
+            HasDifferences: false
+          },
+          HasDifferences: false
+        },
+        Headers: []
+      },
+      Response: {
+        HasDifferences: false,
+        Raw: []
+      },
+      Events: [
+        {
+          Listen: test,
+          Script: {
+            HasDifferences: true,
+            Id: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Name: {
+              Original: ,
+              Updated: ,
+              HasDifferences: false
+            },
+            Type: {
+              Original: text/javascript,
+              Updated: text/javascript,
+              HasDifferences: false
+            },
+            Exec: {
+              Diff: {
+                OldText: {
+                  Lines: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: pm.test("Retrieving non existing bank account should return status code 404.", function () {
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 2,
+                      Text:     pm.response.to.have.status(404);
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 3,
+                      Text: });
+                    }
+                  ],
+                  HasDifferences: true
+                },
+                NewText: {
+                  Lines: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ],
+                  HasDifferences: true
+                }
+              },
+              HasDifferences: true,
+              Raw: ,
+              RawOriginal:
+pm.test("Retrieving non existing bank account should return status code 404.", function () {
+    pm.response.to.have.status(404);
+});
+            }
+          },
+          HasDifferences: true
+        }
+      ],
+      IsFolder: false
+    }
+  ]
+}

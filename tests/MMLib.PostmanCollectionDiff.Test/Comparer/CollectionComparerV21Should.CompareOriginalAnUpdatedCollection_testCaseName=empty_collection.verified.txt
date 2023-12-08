@@ -1,0 +1,528 @@
+﻿{
+  OriginalName: Empty collection - original,
+  UpdatedName: Empty collection - updated,
+  HasDifferences: true,
+  Info: {
+    Diff: {
+      OldText: {
+        Lines: [
+          {
+            Position: 1,
+            Text: {
+          },
+          {
+            Type: Modified,
+            Position: 2,
+            Text: 		"_postman_id": "3895efeb-0375-4966-827a-5ae4a3fa6de1",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "_postman_id":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Deleted,
+                Position: 4,
+                Text: "3895efeb-0375-4966-827a-5ae4a3fa6de1"
+              },
+              {
+                Position: 5,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Type: Modified,
+            Position: 3,
+            Text: 		"name": "Empty collection - updated",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "name":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Position: 4,
+                Text: "Empty
+              },
+              {
+                Position: 5,
+                Text:  
+              },
+              {
+                Position: 6,
+                Text: collection
+              },
+              {
+                Position: 7,
+                Text:  
+              },
+              {
+                Position: 8,
+                Text: -
+              },
+              {
+                Position: 9,
+                Text:  
+              },
+              {
+                Type: Deleted,
+                Position: 10,
+                Text: updated"
+              },
+              {
+                Position: 11,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Position: 4,
+            Text: 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+          },
+          {
+            Position: 5,
+            Text: 		"_exporter_id": "245575"
+          },
+          {
+            Position: 6,
+            Text: 	}
+          }
+        ],
+        HasDifferences: true
+      },
+      NewText: {
+        Lines: [
+          {
+            Position: 1,
+            Text: {
+          },
+          {
+            Type: Modified,
+            Position: 2,
+            Text: 		"_postman_id": "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "_postman_id":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Type: Inserted,
+                Position: 4,
+                Text: "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0"
+              },
+              {
+                Position: 5,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Type: Modified,
+            Position: 3,
+            Text: 		"name": "Empty collection - original",,
+            SubPieces: [
+              {
+                Position: 1,
+                Text: 		
+              },
+              {
+                Position: 2,
+                Text: "name":
+              },
+              {
+                Position: 3,
+                Text:  
+              },
+              {
+                Position: 4,
+                Text: "Empty
+              },
+              {
+                Position: 5,
+                Text:  
+              },
+              {
+                Position: 6,
+                Text: collection
+              },
+              {
+                Position: 7,
+                Text:  
+              },
+              {
+                Position: 8,
+                Text: -
+              },
+              {
+                Position: 9,
+                Text:  
+              },
+              {
+                Type: Inserted,
+                Position: 10,
+                Text: original"
+              },
+              {
+                Position: 11,
+                Text: ,
+              }
+            ]
+          },
+          {
+            Position: 4,
+            Text: 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+          },
+          {
+            Position: 5,
+            Text: 		"_exporter_id": "245575"
+          },
+          {
+            Position: 6,
+            Text: 	}
+          }
+        ],
+        HasDifferences: true
+      }
+    },
+    HasDifferences: true,
+    Raw:
+{
+		"_postman_id": "970c25a2-e0ae-4cc3-a6ac-602b2ed06dc0",
+		"name": "Empty collection - original",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	},
+    RawOriginal:
+{
+		"_postman_id": "3895efeb-0375-4966-827a-5ae4a3fa6de1",
+		"name": "Empty collection - updated",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "245575"
+	}
+  },
+  Variables: [
+    {
+      Key: baseUrl,
+      Value: {
+        Original: /,
+        Updated: /,
+        HasDifferences: false
+      },
+      HasDifferences: false
+    },
+    {
+      Key: variable_which_will_be_changed,
+      Value: {
+        Original: original value,
+        Updated: updated value,
+        HasDifferences: true
+      },
+      HasDifferences: true,
+      ChangeType: Modified
+    },
+    {
+      Key: new_added_variable,
+      Value: {
+        Updated: new value,
+        HasDifferences: false
+      },
+      HasDifferences: true,
+      ChangeType: Inserted
+    },
+    {
+      Key: variable_which_will_be_removed,
+      Value: {
+        Original: removed variable,
+        HasDifferences: true
+      },
+      HasDifferences: true,
+      ChangeType: Deleted
+    }
+  ],
+  Events: [
+    {
+      Listen: prerequest,
+      Script: {
+        HasDifferences: true,
+        Id: {
+          Original: ,
+          Updated: ,
+          HasDifferences: false
+        },
+        Name: {
+          Original: ,
+          Updated: ,
+          HasDifferences: false
+        },
+        Type: {
+          Original: text/javascript,
+          Updated: text/javascript,
+          HasDifferences: false
+        },
+        Exec: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Type: Modified,
+                  Position: 1,
+                  Text: console.log("original");,
+                  SubPieces: [
+                    {
+                      Position: 1,
+                      Text: console
+                    },
+                    {
+                      Position: 2,
+                      Text: .
+                    },
+                    {
+                      Position: 3,
+                      Text: log
+                    },
+                    {
+                      Position: 4,
+                      Text: (
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: "original"
+                    },
+                    {
+                      Position: 6,
+                      Text: );
+                    }
+                  ]
+                },
+                {
+                  Position: 2,
+                  Text: console.log("unchanged");
+                },
+                {
+                  Type: Modified,
+                  Position: 3,
+                  Text: console.log("removed");,
+                  SubPieces: [
+                    {
+                      Type: Deleted,
+                      Position: 1,
+                      Text: console
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 2,
+                      Text: .
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 3,
+                      Text: log
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 4,
+                      Text: (
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 5,
+                      Text: "removed"
+                    },
+                    {
+                      Type: Deleted,
+                      Position: 6,
+                      Text: );
+                    }
+                  ]
+                },
+                {
+                  Type: Imaginary
+                }
+              ],
+              HasDifferences: true
+            },
+            NewText: {
+              Lines: [
+                {
+                  Type: Modified,
+                  Position: 1,
+                  Text: console.log("updated");,
+                  SubPieces: [
+                    {
+                      Position: 1,
+                      Text: console
+                    },
+                    {
+                      Position: 2,
+                      Text: .
+                    },
+                    {
+                      Position: 3,
+                      Text: log
+                    },
+                    {
+                      Position: 4,
+                      Text: (
+                    },
+                    {
+                      Type: Inserted,
+                      Position: 5,
+                      Text: "updated"
+                    },
+                    {
+                      Position: 6,
+                      Text: );
+                    }
+                  ]
+                },
+                {
+                  Position: 2,
+                  Text: console.log("unchanged");
+                },
+                {
+                  Type: Modified,
+                  Position: 3,
+                  Text: ,
+                  SubPieces: [
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    },
+                    {
+                      Type: Imaginary
+                    }
+                  ]
+                },
+                {
+                  Type: Inserted,
+                  Position: 4,
+                  Text: console.log("new added");
+                }
+              ],
+              HasDifferences: true
+            }
+          },
+          HasDifferences: true,
+          Raw:
+console.log("updated");
+console.log("unchanged");
+
+console.log("new added");,
+          RawOriginal:
+console.log("original");
+console.log("unchanged");
+console.log("removed");
+        }
+      },
+      HasDifferences: true
+    },
+    {
+      Listen: test,
+      Script: {
+        HasDifferences: true,
+        Id: {
+          Original: ,
+          Updated: ,
+          HasDifferences: false
+        },
+        Name: {
+          Original: ,
+          Updated: ,
+          HasDifferences: false
+        },
+        Type: {
+          Original: text/javascript,
+          Updated: text/javascript,
+          HasDifferences: false
+        },
+        Exec: {
+          Diff: {
+            OldText: {
+              Lines: [
+                {
+                  Type: Imaginary
+                }
+              ],
+              HasDifferences: true
+            },
+            NewText: {
+              Lines: [
+                {
+                  Type: Inserted,
+                  Position: 1,
+                  Text: console.log("updated tests");
+                }
+              ],
+              HasDifferences: true
+            }
+          },
+          HasDifferences: true,
+          Raw: console.log("updated tests");,
+          RawOriginal: 
+        }
+      },
+      HasDifferences: true
+    }
+  ],
+  Auth: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  },
+  ProtocolProfileBehavior: {
+    Diff: {
+      OldText: {
+        HasDifferences: false
+      },
+      NewText: {
+        HasDifferences: false
+      }
+    },
+    HasDifferences: false,
+    Raw: ,
+    RawOriginal: 
+  }
+}

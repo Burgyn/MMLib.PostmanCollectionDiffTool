@@ -1,0 +1,33 @@
+@using MMLib.PostmanCollectionDiff.Comparer
+@using MMLib.PostmanCollectionDiff.HtmlReporter
+@model MMLib.PostmanCollectionDiff.Comparer.RequestDiff;
+
+@{
+    if (Model.Headers.HasDifferences)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    @{
+                        await IncludeAsync("HeadersTemplate.cshtml",
+                        new HeadersInfo()
+                {
+                    Type = DiffValueType.Original,
+                    Headers = Model.Headers
+                });
+                    }
+                </div>
+                <div class="col">
+                    @{
+                        await IncludeAsync("HeadersTemplate.cshtml",
+                        new HeadersInfo()
+                {
+                    Type = DiffValueType.Updated,
+                    Headers = Model.Headers
+                });
+                    }
+                </div>
+            </div>
+        </div>
+    }
+}

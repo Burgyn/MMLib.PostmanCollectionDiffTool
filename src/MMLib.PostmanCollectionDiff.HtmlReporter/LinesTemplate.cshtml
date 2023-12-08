@@ -1,0 +1,22 @@
+@using DiffPlex.DiffBuilder.Model
+@model MMLib.PostmanCollectionDiff.HtmlReporter.LinesInfo;
+
+<pre>
+    <code class="language-@Model.Language">
+        @{
+            var lines = Model.Pieces;
+            foreach (var line in lines)
+            {
+                var mark = line.Type switch
+                {
+                    ChangeType.Inserted => " //mark-added",
+                    ChangeType.Deleted => " //mark-deleted",
+                    ChangeType.Modified => " //mark-changed",
+                    _ => ""
+                };
+                @Raw(line.Text + mark);
+                <br />
+            }
+        }
+    </code>
+</pre>

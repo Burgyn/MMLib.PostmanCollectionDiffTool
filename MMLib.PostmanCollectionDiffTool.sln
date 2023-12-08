@@ -13,6 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.PostmanCollectionDiff
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.PostmanCollectionDiff.Tool", "src\MMLib.PostmanCollectionDiff.Tool\MMLib.PostmanCollectionDiff.Tool.csproj", "{0D530D83-F046-4FE1-AF26-F4DB1E5D2C4A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.PostmanCollectionDiff.Test", "tests\MMLib.PostmanCollectionDiff.Test\MMLib.PostmanCollectionDiff.Test.csproj", "{20B30EC9-A12A-499B-8AF6-EDC61E8EFB1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.PostmanCollectionDiff.ConsoleReporter", "src\MMLib.PostmanCollectionDiff.ConsoleReporter\MMLib.PostmanCollectionDiff.ConsoleReporter.csproj", "{02A8F404-06AD-4490-83D1-E867A9933706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.PostmanCollectionDiff.Sample", "samples\MMLib.PostmanCollectionDiff.Sample\MMLib.PostmanCollectionDiff.Sample.csproj", "{30F7B42F-92B4-4933-9A05-35E7370B1C22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +37,24 @@ Global
 		{0D530D83-F046-4FE1-AF26-F4DB1E5D2C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D530D83-F046-4FE1-AF26-F4DB1E5D2C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D530D83-F046-4FE1-AF26-F4DB1E5D2C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B30EC9-A12A-499B-8AF6-EDC61E8EFB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B30EC9-A12A-499B-8AF6-EDC61E8EFB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B30EC9-A12A-499B-8AF6-EDC61E8EFB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B30EC9-A12A-499B-8AF6-EDC61E8EFB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A8F404-06AD-4490-83D1-E867A9933706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A8F404-06AD-4490-83D1-E867A9933706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A8F404-06AD-4490-83D1-E867A9933706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A8F404-06AD-4490-83D1-E867A9933706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F7B42F-92B4-4933-9A05-35E7370B1C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F7B42F-92B4-4933-9A05-35E7370B1C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F7B42F-92B4-4933-9A05-35E7370B1C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F7B42F-92B4-4933-9A05-35E7370B1C22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20B30EC9-A12A-499B-8AF6-EDC61E8EFB1C} = {454485FF-8C31-43DF-911F-2995281D9B7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDDC139D-0D43-4EFE-B8E6-2FE711327F87}

@@ -1,0 +1,21 @@
+@using DiffPlex.DiffBuilder.Model
+@using MMLib.PostmanCollectionDiff.HtmlReporter
+@model MMLib.PostmanCollectionDiff.Comparer.RequestDiff;
+
+@{
+    if (string.IsNullOrEmpty(Model.Body.Raw.Raw))
+    {
+        return;
+    }
+}
+
+<div class="container-fluid">
+    <h5>Body</h5>
+    @{
+        await IncludeAsync("CodeDiffTemplate", new CodeDiffInfo()
+            {
+                Language = "json",
+                CodeDiff = Model.Body.Raw
+            });
+    }
+</div>

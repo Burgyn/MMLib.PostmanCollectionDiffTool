@@ -1,0 +1,24 @@
+@using DiffPlex.DiffBuilder.Model
+@using MMLib.PostmanCollectionDiff.HtmlReporter
+@model MMLib.PostmanCollectionDiff.HtmlReporter.CodeDiffInfo
+
+<div class="row code-text">
+    <div class="col-lg-6 col-md-12 overflow-auto overflow-auto">
+        @{
+            await IncludeAsync("LinesTemplate", new LinesInfo()
+            {
+                Language = Model.Language,
+                Pieces = Model.CodeDiff.GetDiff(MMLib.PostmanCollectionDiff.Comparer.DiffValueType.Original).Lines
+            });
+        }
+    </div>
+    <div class="col-lg-6 col-md-12 overflow-auto overflow-auto">
+        @{
+            await IncludeAsync("LinesTemplate", new LinesInfo()
+            {
+                Language = Model.Language,
+                Pieces = Model.CodeDiff.GetDiff(MMLib.PostmanCollectionDiff.Comparer.DiffValueType.Updated).Lines
+            });
+        }
+    </div>
+</div>

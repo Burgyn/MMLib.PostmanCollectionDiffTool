@@ -1,0 +1,22 @@
+@using MMLib.PostmanCollectionDiff.HtmlReporter
+@model MMLib.PostmanCollectionDiff.HtmlReporter.VariablesInfo;
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Variable</th>
+            <th scope="col">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var variable in Model.Variables)
+        {
+            var v = variable.Value.GetValue(Model.Type);
+            var color = RazorHelper.ChangeTypeToTextCssClass(variable.ChangeType);
+            <tr>
+                <td class="code-text @(@color)">@variable.Key.</td>
+                <td class="code-text @(@color)">@v</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+@model MMLib.PostmanCollectionDiff.Comparer.RequestDiff;
+
+<div class="container">
+    <div class="row code-text margin-bottom-10 ">
+        <div class="col">
+            @Model.Method.Original @Model.Url.Original
+        </div>
+        @{
+            if (Model.Url.HasDifferences || Model.Method.HasDifferences)
+            {
+                <div class="col">
+                    @Model.Method.Updated @Model.Url.Updated
+                </div>
+            }
+        }
+    </div>
+</div>
