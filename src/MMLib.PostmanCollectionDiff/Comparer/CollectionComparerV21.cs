@@ -269,7 +269,6 @@ public sealed class CollectionComparerV21 : ICollectionComparer
     private record Information : RawJson
     {
         public required string Name { get; set; }
-        public RawJson Description { get; set; } = RawJson.Empty;
         public required string Schema { get; set; }
     }
 
