@@ -240,8 +240,11 @@ public class DiffReporter : IDiffReporter
         PrintEvents(eventsGrid, item.Events);
         grid.AddRow(eventsGrid);
 
-        AnsiConsole.Write(Panel(grid, $"─ {ChangeTypeToString(item.ChangeType)} {item.Name} ─", color: color));
+        AnsiConsole.Write(Panel(grid, $"─ {ChangeTypeToString(item.ChangeType)} {Escape(item.Name)} ─", color: color));
     }
+
+    private static string Escape(string text)
+        => text.Replace("[", "[[").Replace("]", "]]");
 
     private static string ChangeTypeToString(ChangeType type)
         => type switch

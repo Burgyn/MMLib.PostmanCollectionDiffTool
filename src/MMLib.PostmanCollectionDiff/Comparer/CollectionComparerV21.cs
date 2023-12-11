@@ -148,7 +148,7 @@ public sealed class CollectionComparerV21 : ICollectionComparer
                 var request = Deserialize<Item>(item);
                 request.FullName = FullName($"({request.Request.Method}) {request.Name}");
                 items.Add(request);
-                allItems.Add(request.FullName, request);
+                AddItemToDic(allItems, request);
             }
             else
             {
@@ -156,11 +156,25 @@ public sealed class CollectionComparerV21 : ICollectionComparer
                 folder.FullName = FullName(folder.Name);
                 folder.Item = DeserializeItem(item.GetProperty("item"), folder.FullName, allItems);
                 items.Add(folder);
-                allItems.Add(folder.FullName, folder);
+                AddItemToDic(allItems, folder);
             }
         }
 
         return items;
+    }
+
+    private static void AddItemToDic(Dictionary<string, ItemBase> allItems, ItemBase item)
+    {
+        var key = item.FullName;
+        int i = 1;
+
+        while (allItems.ContainsKey(key))
+        {
+            key = $"{item.FullName} ({i})";
+            i++;
+        }
+
+        allItems.Add(key, item);
     }
 
     [return: NotNull]
