@@ -4,5 +4,5 @@ namespace MMLib.PostmanCollectionDiff.Comparer;
 
 public interface ICollectionComparer
 {
-    CollectionDiffResult Compare(JsonDocument original, JsonDocument updated);
+    CollectionDiffResult Compare(JsonDocument? original, JsonDocument? updated);
 }

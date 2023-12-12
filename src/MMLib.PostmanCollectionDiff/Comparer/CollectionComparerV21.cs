@@ -20,7 +20,7 @@ public sealed class CollectionComparerV21 : ICollectionComparer
         _options.Converters.Add(new RawJsonConverterFactory(typeof(Information), new RawJsonConverter()));
     }
 
-    public CollectionDiffResult Compare(JsonDocument original, JsonDocument updated)
+    public CollectionDiffResult Compare(JsonDocument? original, JsonDocument? updated)
     {
         var originalCollection = Deserialize(original);
         var updatedCollection = Deserialize(updated);
@@ -117,8 +117,13 @@ public sealed class CollectionComparerV21 : ICollectionComparer
         return events;
     }
 
-    private PostmanCollection Deserialize(JsonDocument document)
+    private PostmanCollection Deserialize(JsonDocument? document)
     {
+        if (document is null)
+        {
+            return PostmanCollection.Empty;
+        }
+
         var root = document.RootElement;
         var collection = new PostmanCollection
         {
@@ -550,6 +555,15 @@ public sealed class CollectionComparerV21 : ICollectionComparer
         public RawJson ProtocolProfileBehavior { get; set; } = RawJson.Empty;
         public required Dictionary<string, ItemBase> Items { get; set; }
         public required string Name { get; set; }
+
+        public static PostmanCollection Empty { get; } = new PostmanCollection()
+        {
+            Info = new() { Name = string.Empty, Schema = string.Empty },
+            Items = [],
+            Name = string.Empty,
+            Event = [],
+            Variable = []
+        };
     }
 
     private class RawJsonConverter : JsonConverter<RawJson>
