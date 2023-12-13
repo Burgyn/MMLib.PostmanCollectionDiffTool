@@ -2,6 +2,7 @@
 using MMLib.PostmanCollectionDiff.Comparer;
 using Spectre.Console;
 using Spectre.Console.Rendering;
+using System.Reflection;
 using System.Text;
 
 namespace MMLib.PostmanCollectionDiff.ConsoleReporter;
@@ -15,6 +16,8 @@ public class DiffReporter : IDiffReporter
     private static Color DeletedColor => Color.Red;
 
     public bool Verbose { get; set; }
+
+    public bool CanPrintLogo { get; set; } = true;
 
     public Task GenerateReportAsync(CollectionDiffResult result)
     {
@@ -49,11 +52,18 @@ public class DiffReporter : IDiffReporter
         PrintItems(result.Items.Where(i => i.ChangeType == ChangeType.Modified), ModifieldColor, "~ Modified");
     }
 
-    private static void PrintLogo()
-        => AnsiConsole.Write(
-            new FigletText("MMLib.PMDiff 1.0.0")
+    private void PrintLogo()
+    {
+        if (!CanPrintLogo)
+        {
+            return;
+        }
+        Version version = Assembly.GetAssembly(typeof(DiffReporter))!.GetName().Version!;
+        AnsiConsole.Write(
+            new FigletText($"MMLib.PMDiff {version.Major}.{version.Minor}.{version.Revision}")
                 .Centered()
                 .Color(Color.Blue));
+    }
 
     private void PrintInfo(CollectionDiffResult result)
     {
