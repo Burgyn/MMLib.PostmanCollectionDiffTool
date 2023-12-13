@@ -1,4 +1,6 @@
-﻿@model MMLib.PostmanCollectionDiff.Comparer.CollectionDiffResult
+﻿@using MMLib.PostmanCollectionDiff.HtmlReporter
+@using System.Reflection
+@model MMLib.PostmanCollectionDiff.Comparer.CollectionDiffResult
 <!doctype html>
 <html lang="en">
 <head>
@@ -85,7 +87,11 @@
         <div class="d-flex flex-column flex-md-row align-items-center p-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
                 <img src="https://raw.githubusercontent.com/Burgyn/burgyn/master/144568359_padded_logo.png" class="me-2" width="32" />
-                <span class="fs-4">MMLib.PostmanDiff v0.1</span>
+                @{
+                    Version version = Assembly.GetAssembly(typeof(HtmlDiffReporter))!.GetName().Version!;
+                    string versionString = $"v{version.Major}.{version.Minor}.{version.Build}";
+                }
+                <span class="fs-4">MMLib.PostmanDiff @versionString</span>
             </a>
         </div>
     </header>
